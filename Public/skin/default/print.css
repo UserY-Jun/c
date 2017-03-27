@@ -1,0 +1,42 @@
+table{
+	width:99%;
+	text-align:left;
+	line-height:20px;
+}
+table td{
+	font-size:13px;
+	text-align:left;
+	
+}
+table div{
+	padding:5px;
+	line-height:20px;
+}
+.printtitle{
+	font-size:13px
+}
+.printtable{
+	border-top:1px solid #000000;
+	border-left:1px solid #000000;
+}
+.printtable th{
+	border-right:1px dotted #000000;
+	border-bottom:1px solid #000000;
+	font-size:13px;
+	text-align:center
+}
+.printtable td{
+	border-right:1px dotted #000000;
+	border-bottom:1px solid #000000;
+}
+.printtable td .lt{
+	text-align:left
+}
+.printtable td .cr{
+	text-align:center
+}
+.printtable td .rt{
+	text-align:right;
+	padding-right:10px
+}
+.showcontent{margin:0 auto;}

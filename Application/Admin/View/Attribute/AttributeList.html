@@ -1,0 +1,86 @@
+<layout name="main" />
+
+
+
+
+<div style="width:1200px; margin:0 auto;" >
+    
+    
+    
+    <div style="width:980px; float:right; text-align:left; padding:0; font-size:14px; margin-top:20px;">
+<select name='type_id'>
+    <option value="0">--所有类型--</option>
+    <?php foreach($typeData as $v):
+   if($v['id']==I('get.type_id'))
+      $select= 'selected="selected"';
+    else
+      $select = '';
+    ?>
+    <option value="<?php echo $v['id']; ?>" <?php echo $select; ?> ><?php echo $v['type_name']; ?></option>
+    <?php endforeach; ?>
+</select>    
+<!-- 属性列表 -->
+<form method="post" action="" name="listForm" onsubmit="">
+    <div class="list-div" id="listDiv">
+        <table style="padding:0; margin:auto;" id="recordlist" width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="#E1E1E1" align="center">
+            <tr class="tron" align="center" height="30">
+                <th style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7">属性编号</th>
+                <th style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7">属性名称</th>
+                 <th style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7">属性类型</th>
+                <th style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7">属性值</th>
+                 <th style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7">所属类型</th>
+                <th style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7">操作</th>
+            </tr>
+            <?php foreach($data as $v): ?>
+            <tr class="tron" align="center" height="30" >
+                <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7"><span><?php echo $v['id']; ?></span></td>
+                <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7"><span><?php echo $v['attr_name']; ?></span></td>
+             
+                <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7"><span><?php if($v['attr_type']==1)  echo '可选属性'; else echo '唯一'; ?></span></td>
+                <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7"><span><?php echo $v['attr_option_values']; ?></span></td>
+                <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7"><span><?php echo $v['type_name']; ?></span></td>
+                <td align="center">
+               
+                |<a href="<?php echo U('AttributeEdit?attr_id='.$v['id'].'&type_id='.I('get.type_id')); ?>" title="编辑">编辑</a>|
+                |<a href="<?php echo U('Attributedel?attr_id='.$v['id']).'&type_id='.I('get.type_id'); ?>" onclick="if(!confirm('确定删除该属性吗?')){return false}" title="回收站">删除</a>|</td>
+            </tr>
+            <?php endforeach; ?>
+        </table>
+
+    <!-- 分页开始 -->
+        <table id="page-table" cellspacing="0">
+            <tr>
+                <td width="80%">&nbsp;</td>
+                <td align="center" nowrap="true">
+                   <?php echo $pageString; ?>
+                </td>
+            </tr>
+        </table>
+    <!-- 分页结束 -->
+    </div>
+</form>
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+<script>
+  $(function(){
+      $(".tron").mouseover(function(){
+          $(this).find('td').css('backgroundColor','#EFFBFD');
+     })
+         $(".tron").mouseout(function(){
+            $(this).find('td').css('backgroundColor','#FFF');
+        })
+    });
+ $("select[name='type_id']").change(function(){
+     location.href='<?php echo U('AttributeList','',FALSE);?>/type_id/'+$(this).val();
+     
+ });
+</script>

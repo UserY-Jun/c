@@ -1,0 +1,87 @@
+[ 2017-02-26T12:35:27+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-02-26T12:35:27+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-26T12:35:27+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-26T12:35:27+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-26T12:35:28+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-26T12:35:28+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-26T12:35:30+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/3180828888986064
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-26T12:35:41+08:00 ] 127.0.0.1 /index.php/Admin/Trade/setup.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-26T12:35:44+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-26T12:35:47+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-26T12:35:51+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2579014587066342
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0039s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 107 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2579014587066342','1488083751','2','浏览页面') [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 26 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0049s ]
+SQL: SELECT `tid` FROM `cms_orders` WHERE `tid_s` = '2579014587066342'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2579014587066342')  [ RunTime:0.0000s ]
+
+[ 2017-02-26T12:35:58+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-26T12:36:36+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-26T12:36:38+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-26T12:36:39+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-26T12:36:46+08:00 ] 127.0.0.1 /index.php/Admin/Products/ProductsAdd.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-26T12:36:48+08:00 ] 127.0.0.1 /index.php/Admin/Products/ProductsList.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-26T12:36:49+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-26T12:38:46+08:00 ] 127.0.0.1 /index.php/Admin/role/roleList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-26T12:38:52+08:00 ] 127.0.0.1 /index.php/Admin/privilege/prilist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-26T12:38:54+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priadd.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-26T12:39:27+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-26T12:39:29+08:00 ] 127.0.0.1 /index.php/Admin/worklog/wllist
+WARN: 测试日志信息，这是警告级别
+

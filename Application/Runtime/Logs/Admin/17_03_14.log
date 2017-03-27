@@ -1,0 +1,234 @@
+[ 2017-03-14T00:07:50+08:00 ] 127.0.0.1 /index.php/Admin/main/index.asp
+ERR: 无法加载控制器:Main
+
+[ 2017-03-14T00:19:25+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sq_jingyi.cms_role__user' doesn't exist
+
+[ 2017-03-14T00:21:00+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sq_jingyi.cms_role__user' doesn't exist
+
+[ 2017-03-14T00:23:25+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sq_jingyi.cms_role__user' doesn't exist
+
+[ 2017-03-14T00:24:58+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sq_jingyi.cms_role__user' doesn't exist
+
+[ 2017-03-14T08:15:45+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sq_jingyi.cms_role__user' doesn't exist
+
+[ 2017-03-14T08:16:17+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sq_jingyi.cms_role__user' doesn't exist
+
+[ 2017-03-14T08:19:02+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'a.admin_id' in 'where clause'
+
+[ 2017-03-14T08:19:43+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-14T08:19:43+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T08:19:43+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T08:19:43+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T08:19:43+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T08:19:43+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T08:47:23+08:00 ] 127.0.0.1 /index.php/Admin/main/index.asp
+ERR: 无法加载控制器:Main
+
+[ 2017-03-14T08:52:13+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/prilist.html
+ERR: Think\Model:Authorization方法不存在！
+
+[ 2017-03-14T08:52:54+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/prilist.html
+ERR: Think\Model:Authorization方法不存在！
+
+[ 2017-03-14T08:53:11+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/prilist.html
+ERR: Think\Model:Authorization方法不存在！
+
+[ 2017-03-14T08:54:57+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/prilist.html
+ERR: Think\Model:Authorization方法不存在！
+
+[ 2017-03-14T09:37:25+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-14T09:37:25+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T09:37:25+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T09:37:25+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T09:37:25+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T09:37:25+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T10:16:08+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T10:16:08+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T10:16:08+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-14T10:16:08+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T10:16:08+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T10:16:08+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T10:16:15+08:00 ] 127.0.0.1 /index.php/Admin/Admin/AdminEdit
+ERR: 参数错误或者未定义:id
+
+[ 2017-03-14T10:19:14+08:00 ] 127.0.0.1 /index.php/Admin/Admin/AdminAdd.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'shop' doesn't have a default value
+
+[ 2017-03-14T10:20:21+08:00 ] 127.0.0.1 /index.php/Admin/Admin/AdminAdd.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'shop' doesn't have a default value
+
+[ 2017-03-14T10:25:55+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-14T10:25:55+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T10:25:55+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T10:25:55+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T10:25:55+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T10:25:55+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T10:26:07+08:00 ] 127.0.0.1 /index.php/Admin/Admin/AdminAdd
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sq_jingyi.cms_role__user' doesn't exist
+
+[ 2017-03-14T10:32:15+08:00 ] 127.0.0.1 /index.php/Admin/Admin/AdminAdd.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'shop' doesn't have a default value
+
+[ 2017-03-14T10:32:55+08:00 ] 127.0.0.1 /index.php/Admin/Admin/AdminAdd.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'shop' doesn't have a default value
+
+[ 2017-03-14T10:33:33+08:00 ] 127.0.0.1 /index.php/Admin/Admin/AdminAdd.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'shop' doesn't have a default value
+
+[ 2017-03-14T10:45:28+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-14T10:45:28+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T10:45:28+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T10:45:28+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T10:45:28+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T11:06:09+08:00 ] 127.0.0.1 /index.php/Admin/Admin/AdminList
+ERR: XML标签语法错误 : condition="="(empty($a))"
+
+[ 2017-03-14T11:07:38+08:00 ] 127.0.0.1 /index.php/Admin/Admin/AdminList
+ERR: XML标签语法错误 : $a=1 condition="(empty($a))"
+
+[ 2017-03-14T12:25:00+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-14T12:25:00+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T12:25:00+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T12:25:00+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T12:25:01+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T12:25:01+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T12:50:54+08:00 ] 127.0.0.1 /index.php/Admin/main/sitemap.asp
+ERR: 无法加载控制器:Main
+
+[ 2017-03-14T13:33:48+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T13:33:48+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T13:33:48+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-14T13:33:48+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T13:33:48+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T13:33:48+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T13:33:54+08:00 ] 127.0.0.1 /index.php/Admin/Shop_group/Shopgroup
+ERR: 无法加载控制器:Shop_group
+
+[ 2017-03-14T13:35:01+08:00 ] 127.0.0.1 /index.php/Admin/Shop_group/Shopgrouplist
+ERR: 无法加载控制器:Shop_group
+
+[ 2017-03-14T22:17:13+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T22:17:13+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-14T22:17:13+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T22:17:13+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T22:17:13+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T22:17:13+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T23:17:48+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-14T23:17:48+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T23:17:48+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T23:17:48+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T23:17:48+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-14T23:17:48+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+

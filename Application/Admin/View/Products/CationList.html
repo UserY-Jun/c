@@ -1,0 +1,27 @@
+<layout name="main"/>
+<div style="width:980px; float:right; text-align:left; padding:0; font-size:14px; margin-top:20px;">
+<table style="padding:0; margin:auto;" width="980" cellspacing="1" cellpadding="1" border="0" bgcolor="#E1E1E1" align="center">
+     <tbody>
+     
+   <tr>
+       <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " width="150" bgcolor="#FFFFFF" align="right" rowspan = " <?php $count=count($catlist)+1;echo $count; ?> ">分类名称：</td>
+    </tr>   
+    
+    <?php foreach($catlist as $rows): ?> 
+    <tr>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="left">
+       <?php echo str_repeat('&nbsp',$rows['lave']*3).$rows['cat_name'] ?>
+        </td>
+        
+
+    </tr>   
+  <?php endforeach; ?>
+     </tbody>
+</table>
+    </div>
+
+
+
+
+
+

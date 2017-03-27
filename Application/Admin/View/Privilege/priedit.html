@@ -1,0 +1,31 @@
+<layout name='main' />
+<div style="width:980px; float:right; text-align:left; padding:0; font-size:14px; margin-top:20px;">
+<form action="__SELF__" method='post'>
+    
+ 
+ 
+ 所属下级：<select name="parent_id">
+     <option value="0">顶级权限</optopm>
+     <?php foreach($prilist as $rows): ?>
+     <option value="<?php echo $rows['id'] ?>" <?php if($rows['id']==$url_data['parent_id']){echo 'selected';} ?> ><?php echo str_repeat('&nbsp',$rows['lave']*3).$rows['pri_name'] ?></option>
+     <?php endforeach; ?>
+            </select>
+ <br/>
+ <tr>
+     <td>权限名称：</td>
+     <td> <input type='text' name='pri_name' value="<?php echo $url_data['pri_name'] ?>" > </td>
+ </tr>
+ <tr>
+     <td>平台名称：</td>
+        <td> <input type='text' name='module_name' value="<?php echo $url_data['module_name'] ?>"> </td>
+ </tr>
+  <tr>
+     <td>控制器名称：</td>
+        <td> <input type='text' name='controller_name' value="<?php echo $url_data['controller_name'] ?>"> </td>
+ </tr>
+  <tr>
+     <td>方法名称：</td>
+        <td> <input type='text' name='action_name' value="<?php echo $url_data['action_name'] ?>"> </td>
+ </tr>
+   <input type='submit' value="修改"/>
+   </div> 

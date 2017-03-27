@@ -1,0 +1,900 @@
+[ 2017-03-22T08:17:49+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-22T08:17:49+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:17:49+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:17:49+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:18:47+08:00 ] 192.168.0.134 /
+ERR: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'ip' at row 1
+
+[ 2017-03-22T08:19:47+08:00 ] 192.168.0.134 /
+ERR: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'ip' at row 1
+
+[ 2017-03-22T08:20:31+08:00 ] 192.168.0.134 /
+ERR: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'ip' at row 1
+
+[ 2017-03-22T08:21:27+08:00 ] 192.168.0.134 /
+ERR: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'ip' at row 1
+
+[ 2017-03-22T08:26:13+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-22T08:26:13+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:26:13+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:26:13+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:26:13+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:26:13+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:26:32+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:26:32+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:26:32+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-22T08:26:32+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:26:32+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:27:10+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-22T08:27:10+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:27:10+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:27:10+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:27:10+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:27:10+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:28:32+08:00 ] 192.168.0.134 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0039s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 154 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1490142512',NULL,'浏览页面') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='08:28:32' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 8 AND `year` = 2017 AND `month` = 3 AND `day` = 21 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_clock` (`user_id`,`year`,`month`,`day`,`remark`,`status`) VALUES ('8','2017','3','21','','1') [ RunTime:0.0010s ]
+
+[ 2017-03-22T08:28:50+08:00 ] 192.168.0.134 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-22T08:28:50+08:00 ] 192.168.0.134 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:28:50+08:00 ] 192.168.0.134 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:28:50+08:00 ] 192.168.0.134 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:40:20+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-22T08:40:20+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:40:20+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:40:20+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:40:36+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-22T08:40:36+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:40:36+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:40:36+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:44:58+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-22T08:44:58+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:44:58+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:44:58+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:45:18+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:45:18+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-22T08:45:18+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:45:18+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:45:24+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-22T08:45:24+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:45:24+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:45:24+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:45:24+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:45:24+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:45:31+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-22T08:45:31+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:45:31+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:45:31+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:45:31+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:45:31+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:47:58+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-22T08:47:58+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:47:58+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:47:58+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:47:58+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:47:58+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T08:49:33+08:00 ] 192.168.0.101 /index.php/Admin/trade/AjaxOrdersStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0117s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/AjaxOrdersStatus','1490143773',NULL,'浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='08:49:33' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_orders` WHERE ( tid_s = 3242640888910481 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_no_num`=invoice_no_num+1 WHERE ( tid_s = 3242640888910481 ) [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '3242640888910481' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_no`='1',`invoice_no_time`='2017-03-22 08:49:33' WHERE `tid_s` = '3242640888910481' [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-22T08:49:48+08:00 ] 192.168.0.101 /index.php/Admin/trade/AjaxOrdersStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0127s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/AjaxOrdersStatus','1490143787',NULL,'浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='08:49:48' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_orders` WHERE ( tid_s = 3242640888910481 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `instructions_num`=instructions_num+1 WHERE ( tid_s = 3242640888910481 ) [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '3242640888910481' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `instructions`='1',`instructions_time`='2017-03-22 08:49:48' WHERE `tid_s` = '3242640888910481' [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-22T09:00:40+08:00 ] 192.168.0.101 /index.php/Admin/trade/ShoworderInfo/tids/2606349588607227
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0137s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2606349588607227','1490144440',NULL,'浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='09:00:40' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '2606349588607227'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0146s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2606349588607227','2604538162767227')  [ RunTime:0.0088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-22T09:00:56+08:00 ] 192.168.0.101 /index.php/Admin/trade/ShoworderInfo/tids/2607754995933338
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0127s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2607754995933338','1490144456',NULL,'浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='09:00:56' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '2607754995933338'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2607754995933338','2606430961053338')  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-22T09:01:03+08:00 ] 192.168.0.101 /index.php/Admin/trade/ShoworderInfo/tids/2608430387200846
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0117s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2608430387200846','1490144463',NULL,'浏览页面') [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='09:01:03' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '2608430387200846'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2608430387200846','2607260190670846')  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-22T09:01:09+08:00 ] 192.168.0.101 /index.php/Admin/trade/ShoworderInfo/tids/2608430387200846
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0127s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2608430387200846','1490144469',NULL,'浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='09:01:09' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '2608430387200846'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2608430387200846','2607260190670846')  [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-22T09:01:10+08:00 ] 192.168.0.101 /index.php/Admin/trade/ShoworderInfo/tids/2607989392795125
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0127s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2607989392795125','1490144470',NULL,'浏览页面') [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='09:01:10' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '2607989392795125'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2607989392795125')  [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-22T09:03:36+08:00 ] 192.168.0.101 /index.php/Admin/trade/AjaxOrdersStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0127s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/AjaxOrdersStatus','1490144616',NULL,'浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='09:03:36' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_orders` WHERE ( tid_s = 2608828364277325 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status_num`=invoice_status_num+1 WHERE ( tid_s = 2608828364277325 ) [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '2608828364277325' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status`='1',`invoice_status_time`='2017-03-22 09:03:36' WHERE `tid_s` = '2608828364277325' [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-22T09:03:46+08:00 ] 192.168.0.101 /index.php/Admin/trade/AjaxOrdersStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0127s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/AjaxOrdersStatus','1490144625',NULL,'浏览页面') [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='09:03:46' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `cms_orders` WHERE ( tid_s = 3245096716277098 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status_num`=invoice_status_num+1 WHERE ( tid_s = 3245096716277098 ) [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '3245096716277098' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status`='1',`invoice_status_time`='2017-03-22 09:03:46' WHERE `tid_s` = '3245096716277098' [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-22T09:07:23+08:00 ] 192.168.0.101 /index.php/Admin/trade/AjaxOrdersStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0127s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/AjaxOrdersStatus','1490144843',NULL,'浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='09:07:23' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_orders` WHERE ( tid_s = 2608828364277325 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_no_num`=invoice_no_num+1 WHERE ( tid_s = 2608828364277325 ) [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '2608828364277325' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_no`='1',`invoice_no_time`='2017-03-22 09:07:23' WHERE `tid_s` = '2608828364277325' [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-22T09:32:37+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/index
+ERR: 无法加载控制器:Weightstation
+
+[ 2017-03-22T09:53:58+08:00 ] 192.168.0.101 /index.php/Admin/weightstation/index.asp
+ERR: 非法操作:index.asp
+
+[ 2017-03-22T10:00:40+08:00 ] 192.168.0.101 /index.php/Admin/Admin/Weightstation/index.asp
+ERR: 非法操作:Weightstation
+
+[ 2017-03-22T10:00:53+08:00 ] 192.168.0.101 /index.php/Admin/Weightstation/index.asp
+ERR: 非法操作:index.asp
+
+[ 2017-03-22T10:01:23+08:00 ] 127.0.0.1 /index.php/admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T10:01:23+08:00 ] 127.0.0.1 /index.php/admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-22T10:01:23+08:00 ] 127.0.0.1 /index.php/admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T10:01:23+08:00 ] 127.0.0.1 /index.php/admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T10:02:56+08:00 ] 192.168.0.101 /index.php/Admin/Weightstation/index.asp?action=downloadQuicklink
+ERR: 非法操作:index.asp
+
+[ 2017-03-22T10:09:12+08:00 ] 127.0.0.1 /index.php/Admin/Login/Weightstation/index
+ERR: 非法操作:Weightstation
+
+[ 2017-03-22T14:47:35+08:00 ] 127.0.0.1 /index.php/Admin/trade/AjaxOrdersStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0127s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0098s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/AjaxOrdersStatus','1490165255',NULL,'浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='14:47:35' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `cms_orders` WHERE ( tid_s = 2610557183438430 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status_num`=invoice_status_num+1 WHERE ( tid_s = 2610557183438430 ) [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '2610557183438430' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status`='1',`invoice_status_time`='2017-03-22 14:47:35' WHERE `tid_s` = '2610557183438430' [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-22T14:47:42+08:00 ] 127.0.0.1 /index.php/Admin/trade/AjaxOrdersStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0127s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/AjaxOrdersStatus','1490165262',NULL,'浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='14:47:42' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_orders` WHERE ( tid_s = 3245426105290992 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status_num`=invoice_status_num+1 WHERE ( tid_s = 3245426105290992 ) [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '3245426105290992' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status`='1',`invoice_status_time`='2017-03-22 14:47:42' WHERE `tid_s` = '3245426105290992' [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-22T14:47:45+08:00 ] 127.0.0.1 /index.php/Admin/trade/AjaxOrdersStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0137s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0146s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/AjaxOrdersStatus','1490165265',NULL,'浏览页面') [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='14:47:45' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_orders` WHERE ( tid_s = 3245359709648881 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status_num`=invoice_status_num+1 WHERE ( tid_s = 3245359709648881 ) [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '3245359709648881' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status`='1',`invoice_status_time`='2017-03-22 14:47:45' WHERE `tid_s` = '3245359709648881' [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-22T15:08:45+08:00 ] 127.0.0.1 /index.php/Admin/trade/AjaxOrdersStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0039s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/AjaxOrdersStatus','1490166525',NULL,'浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='15:08:45' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_orders` WHERE ( tid_s = 2610557183438430 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_no_num`=invoice_no_num+1 WHERE ( tid_s = 2610557183438430 ) [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '2610557183438430' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_no`='1',`invoice_no_time`='2017-03-22 15:08:45' WHERE `tid_s` = '2610557183438430' [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-22T15:08:50+08:00 ] 127.0.0.1 /index.php/Admin/trade/AjaxOrdersStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0039s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/AjaxOrdersStatus','1490166530',NULL,'浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='15:08:50' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_orders` WHERE ( tid_s = 2610557183438430 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `instructions_num`=instructions_num+1 WHERE ( tid_s = 2610557183438430 ) [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '2610557183438430' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `instructions`='1',`instructions_time`='2017-03-22 15:08:50' WHERE `tid_s` = '2610557183438430' [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-22T15:37:00+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-22T15:37:00+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T15:37:00+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T15:37:00+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-22T16:10:40+08:00 ] 192.168.0.101 /index.php/Admin/trade/ShoworderInfo/tids/9513
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0039s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/9513','1490170240',NULL,'浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='16:10:40' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '9513'  [ RunTime:0.0381s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('9513','9513')  [ RunTime:0.0020s ]
+
+[ 2017-03-22T16:10:42+08:00 ] 192.168.0.101 /index.php/Admin/trade/ShoworderInfo/tids/19512
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/19512','1490170242',NULL,'浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='16:10:42' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 22 [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '19512'  [ RunTime:0.0391s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0059s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('19512')  [ RunTime:0.0020s ]
+

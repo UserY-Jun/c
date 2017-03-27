@@ -1,0 +1,92 @@
+<layout name="main" />
+
+
+
+<div style="width:980px; float:right; text-align:left; padding:0; font-size:14px; margin-top:20px;">
+
+
+<form action="__SELF__" method='post'>
+
+
+ <tr>
+     <td>岗位名称：</td>
+     <td> <input type='text' name='role_name'  value="<?php echo $role_name['role_name'] ?>"> </td>
+ </tr>
+ <input type="hidden" name="id" value="<?php echo $role_name['id'] ?>">
+ <br>
+ 
+  <tr>
+     <td>岗位权限修改：</td>
+     
+     <?php foreach($prilist as $rows):
+         
+     
+     ?>  <br>
+   
+  <td> <?php echo str_repeat('&nbsp',$rows['lave']*30); ?><input  <?php    if(is_int(strpos($pri_id['pri_id'],$rows['id']))){
+                    echo 'checked=checked';
+            } ?> lave='<?php echo $rows["lave"] ?>' type="checkbox" name='pri_id[]' value="<?php echo $rows['id'] ?>" class="checkbox"   > <?php echo $rows['pri_name'] ?>  </td>
+     
+     <?php endforeach; ?>
+ </tr>
+ 
+
+
+ <br>
+   <input type='submit' value="修改"/>
+ 
+    
+</form>
+</div>
+<script>
+    $("input[name='pri_id[]']").click(function(){
+        var Plave=Nlave=$(this).attr('lave');                   //获取当前对象的节点lave值
+        /************************如果当前点击对象被选中了**********************/
+        if($(this).prop('checked')){
+        /****************获取点击对象之前的所有节点  并循环**************************/
+           $(this).prevAll(':checkbox').each(function(k,v){     
+                if($(v).attr('lave')<Plave){                     //如果当前操作对象的lave值小于点击对象的lave值
+                    Plave--;                                    //点击对象的lave值-1
+                    $(v).prop('checked','checked')              //并且将此节点选中
+                }   
+            })
+       /********************获取点击对象之后的所有节点  并循环*****************************/
+           $(this).nextAll(':checkbox').each(function(k,v){    
+              if($(v).attr('lave')>Nlave){                      //如果循环到的对象的lave值小于点击对象的lave值
+                  // Nlave--;            //不能                        
+                  $(v).prop('checked','checked');               // 那就将其选中
+              }else{
+                 exit;// return false;              //否则；什么都不用做     //可以用exit 也可以用 return false              
+              }     
+            })                 
+        }
+          /************************如果当前点击对象没有被选中**********************/
+        else{     
+            /****************获取点击对象之后的所有节点  并循环**************************/
+            $(this).nextAll(':checkbox').each(function n(k,v){
+                if($(v).attr('lave')>=Nlave){                //如果当前操作对象的lave值大于点击对象的lave值
+                    if($(v).prop('checked')==true && $(v).attr('lave')==Plave){  /**重点***/ //先判断之后的checked是否有被选中 并且lave值是相同的（说明是同级的）
+                        exit;    //  return false;     /**重点***/ //那么不需要吧之前的复选框取消 （注意吧prev放到下面  因为可以用exit让其不执行 此时return false无用 ）/********还没明白怎么回事--明白了--returnfalse终止当前循环，但是目的是不让运行下面的代码********/
+                    }else{
+                   //        alert($(v).attr('lave'))     
+                        $(v).prop('checked','')         //如果同级别的 而且没有被选中了的就吧下面的取消掉         
+                    }            
+                }   
+            });        
+            $(this).prevAll(':checkbox').each(function(k,v){
+                if($(v).attr('lave')<=Plave){  
+                    if($(v).prop('checked')==true && $(v).attr('lave')==Plave){
+                         Plave--;  
+                    }else{
+                   //        alert($(v).attr('lave'))
+                     $(v).prop('checked','')                     
+                    }            
+                }   
+            });    
+        }
+    });
+        
+
+    
+</script>
+</div>

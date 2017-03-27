@@ -1,0 +1,107 @@
+<layout name="main" />
+
+
+
+
+
+
+<div style="width:1200px; margin:0 auto;">
+	
+
+            
+
+    
+		<div style="width:978px; border:#e6e6e6 1px solid; background:#fcfcfc; float:right; text-align:left; padding:0; font-size:14px;margin-top:20px;">
+    <table style="padding:0; margin:auto;" width="978" cellspacing="0" cellpadding="0" border="0" bgcolor="#E1E1E1" align="center">
+			  <tbody><tr>
+				<td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:18px; border-bottom:#e6e6e6 1px solid;" bgcolor="#F9F9F9" align="center">
+                                    <div style="position:relative;width:280px; float:left; margin:0; padding:0;text-align:left;">
+<form action="" method="get" style="margin:0; padding:0;">
+                            <input name="action" id="action" value="" type="hidden">
+                            <input name="keywords" class="search_input" id="keywords" value="<?php echo I('get.keywords') ?>" style="width:160px;vertical-align:middle;" type="text">&nbsp;
+                            <input name="button" class="search_btn" id="button" value="搜索" style="vertical-align:middle;" type="submit"> 
+                            <span class="Tooltip" title="可搜索关键字：产品名称、货号"><img src="__PUBLIC__/skin/default/images/help.png" style="vertical-align:middle;" width="18">
+                            </span>
+		  </form></div><span style="position:relative; width:300px; float:right; margin:0; padding:0 ; text-align:right;">
+                      <select name="classid" class="wenbenkuang" onChange='var jmpURL=this.options[this.selectedIndex].value;var a_=document.getElementById("keywords").value;; if(jmpURL!="") {window.location="__MODULE__/Stock/StockList/cat_id/"+jmpURL; }else{ this.selectedIndex=0; }'>
+        <option class="input" value="0" selected="">显示全部分类</option>
+        <?php foreach($cat_list as $v=>$k): ?>
+        <option <?php if(I('get.cat_id')==$k['id'])echo 'selected'; ?>  class="input" value="<?php echo $k['id'] ?>"><?php echo $k['cat_name']; ?></option>
+        <?php endforeach; ?>
+
+
+        </select>
+        </span>
+          </td>
+		  </tr>
+			  <tr> 
+				<td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:18px;" valign="middle" bgcolor="#F9F9F9" align="center">
+                                    <div style="position:relative;color:#000; float:left; margin:0; padding:0;text-align:left; vertical-align:middle;">
+                                        显示: <a href="index.asp?action=list&amp;keywords=&amp;classid=0&amp;p=0"><img src="__PUBLIC__/skin/default/images/list_line_1.jpg" style="padding:1px 2px;vertical-align:middle;" border="0"></a>&nbsp;
+                                        <a href="index.asp?action=listbox&amp;keywords=&amp;classid=0&amp;p=0">
+                                            <img src="__PUBLIC__/skin/default/images/list_box_0.jpg" style="padding:1px 2px;vertical-align:middle;" border="0"></a></div>
+                                 <div class="yahoo2" style='' >
+                                     <ul>
+                                        <?php echo $showPage ?>
+                                    </ul>
+                                </div>
+                           </td>
+		  </tr>
+		</tbody></table>
+    </div>
+    
+    <div style="width:980px; float:right; text-align:left; padding:0; font-size:14px; margin-top:20px;">	
+					
+		<table style="padding:0; margin:auto;" id="recordlist" width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="#E1E1E1" align="center">
+			 <tbody><tr align="center" height="30">
+			   <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="80" bgcolor="#f7f7f7">图片</td>
+               <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="140" bgcolor="#f7f7f7">型号</td>
+               <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="300" bgcolor="#f7f7f7">规格</td>
+               <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="100" bgcolor="#f7f7f7">件数</td>
+               <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="100" bgcolor="#f7f7f7">合计</td>
+				<td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="260" bgcolor="#f7f7f7">操作</td>
+		  </tr>
+		<?php foreach($pro_list as $v=>$k):  ?>
+<tr style="FONT-SIZE:14px; color:#666666;" class="changecolour" bgcolor="#FFFFFF">
+    <td style="height:80px;" class="" align="center"><div style="padding:10px;"><a href="__MODULE__/Stock/StockEdit/sku_id/<?php echo $k[sku_id]?>"><img src="__PUBLIC__/Uploads/<?php echo $k['sm_logo'] ?>" width="60"></a></div></td>
+<td class=""  style="height:80px;" class="" align="center" ><?php echo $k['outer_id'] ?></td>
+<td class="" style="height:80px;" class="" align="center"><?php echo $k['spec'] ?></td>
+<td class="" align="center"><?php echo $k['stock_num'] ?> 件 </td>
+<td style="color:<?php $one=explode('*', $k['one']); if($one[1]*$k['stock_num']<=$k['a_stoct']){echo 'red';}else{echo 'green';} ?>"   class="" align="center"><?php $one=explode('*', $k['one']);echo $one[1]*$k['stock_num'];  ?>M</td>
+<td class="" valign="middle" align="center">&nbsp;
+    <input name="button_Y61101" class="btn sortnamecss" style="font-size:12px;" id="button_Y61101" value="查看明细" onclick=" window.open('__MODULE__/Stock/StockEdit/sku_id/<?php echo $k[sku_id]?>');;" type="button"></td>
+</tr>
+                <?php endforeach; ?>
+
+			
+		
+		</tbody></table>
+		<br>
+		<table style="padding:0; margin:auto;" width="980" cellspacing="1" cellpadding="1" border="0" bgcolor="#E1E1E1" align="center">
+			  <tbody><tr>
+				<td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:18px;" bgcolor="#F9F9F9" align="center">
+                                    <div style="position:relative;width:280px; float:left; margin:0; padding:0;text-align:left;">
+                                        <form action="index.asp" method="get" style="margin:0; padding:0;">
+                                            <input name="action" id="action" value="" type="hidden">
+               
+                                            </span>
+		  </form></div>
+<div class='<?php echo $div_class; ?>' style=''>
+    <ul>
+    <?php echo $showPage ?>
+    </ul>
+</div>
+ 
+                                </td>
+		  </tr>
+		</tbody></table>
+
+
+	</div>
+</div>
+
+<script>
+    
+
+    
+</script>

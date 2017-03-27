@@ -1,0 +1,17 @@
+<layout name='main' />
+<div style="width:980px; float:right; text-align:left; padding:0; font-size:14px; margin-top:20px;">
+
+ <?php foreach($prilist as $rows): ?>
+            <tr>
+                <td align="center">    <?php   $rows['id']; ?>            </td>
+                <td>                    <?php echo str_repeat('&nbsp',$rows['lave']*8).$rows['pri_name'] ?>             </td>
+                <td align="center">
+                    <input type="button" value="修改" onclick="location.href='__URL__/priedit/pri_id/<?php echo $rows[id] ?>'">
+                    <input type="button" value="删除" onclick="location.href='__URL__/pridel/pri_id/<?php echo $rows[id]  ?>'"> 
+                </td>
+            </tr>
+            <br>
+            <?php endforeach ?>
+          
+        </table>
+</div>

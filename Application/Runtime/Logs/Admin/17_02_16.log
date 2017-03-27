@@ -1,0 +1,12 @@
+[ 2017-02-16T15:35:37+08:00 ] 127.0.0.1 /index.php/Admin/role/roleList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-16T15:50:26+08:00 ] 127.0.0.1 /index.php/Admin/role/roleList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-16T15:51:06+08:00 ] 127.0.0.1 /index.php/Admin/role/roleList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-16T15:52:46+08:00 ] 127.0.0.1 /index.php/Admin/role/roleList
+WARN: 测试日志信息，这是警告级别
+

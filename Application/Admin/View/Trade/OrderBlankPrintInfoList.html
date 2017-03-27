@@ -1,0 +1,122 @@
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>ERP企业管理系统</title>
+<script src="__PUBLIC__/js/jquery-1.3.2.js"></script>
+<script src="__PUBLIC__/js/jquery-barcode.min.js"></script>
+<link href="__PUBLIC__/skin/default/print.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body rel="index" >
+<link href="__PUBLIC__/skin/default/default.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+
+.showcontent { width:auto;padding-bottom:0px;padding-top:0px;}
+
+</style>
+
+
+
+
+
+
+
+<br>
+<div class="showcontent"  >
+
+<div style="font-size:18px; text-align:center; margin-bottom:10px;">晶宜家居用品旗舰店 配货单</div>
+
+<table class="printtable showcontent" style="border-right:#000000 1px solid;" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF" align="center">
+
+<tbody><tr><td width="7%"><div class="cr">No</div></td>
+
+<td width="11%"><div class="cr">日期</div></td>
+
+<td width="8%"><div class="cr">型号</div></td>
+
+<td width="13%"><div class="cr">订单明细</div></td>
+
+<td width="7%"><div class="cr">合计</div></td>
+
+<td width="9%"><div class="cr">姓名</div></td>
+
+<td width="14%"><div class="cr">地址</div></td>
+
+<td style="border-right:none;" width="22%"><div class="cr">备注</div></td></tr>
+
+    
+   <?php $count=count($datainfo); ?>
+<tr>
+    <td rowspan="<?php echo $count; ?>"><div class="cr"><?php echo $orderdata[0][seller_nick] ; ?></div></td>
+ <td rowspan="<?php echo $count; ?>"><div class="cr"><?php  if($orderdata[0][nvoice_no_time]){echo $orderdata[0][nvoice_no_time]; }else{echo date('m/d H:s') ;} ?></div></td>
+ <td style="clear:both;border-bottom:1px #000000 dotted;">
+     <div><?php $win=strtok($datainfo[0][sku_pro_name],'：');  $wing=strtok('/'); echo substr($wing,2); ?></div>
+ </td>
+ <td style="clear:both;border-bottom:1px #000000 dotted;"><div class="cr"><?php
+         $win=strtok($datainfo[0][sku_pro_name],'/');
+         $wide=strtok('*');
+         $long=strtok(';');
+         echo $wide.'×';
+         echo $long.'×';
+         echo $datainfo[0][num];
+         
+         ?> </div></td>
+ <td style="clear:both;border-bottom:1px #000000 dotted;"><div class="rt"><?php  
+  
+         $numLong=$long*$datainfo[0][num];  echo $numLong; ?>米</div></td>
+ <td rowspan="<?php echo $count; ?>"><div class="lt" style="font-size:14px;"><?php echo $orderdata[0][receiver_name]; ?></div></td>
+ <td rowspan="<?php echo $count; ?>"><div class="lt"><?php    echo strtok($orderdata[0][receiver_address],' ').'&nbsp'.strtok(' ');   ?></div></td>
+ <td rowspan="<?php echo $count; ?>" style="border-right:none;">
+     
+    <div class="lt" id="barcode39" style="font-size:12px">     
+        <div style="clear:both;padding-top:-5px;text-align:left;">
+            <?php if($orderdata[0][buyer_message]){echo 买家留言：."<font color='red'>".$orderdata[0][buyer_message]."</font>" ;} ?>
+            <?php if($orderdata[0][seller_memo]){echo 卖家备注：."<font color='red'>".$orderdata[0][seller_memo]."</font>" ;} ?>
+ 
+        </div>
+    &nbsp;
+    </div>
+ </td>
+</tr>
+
+<?php array_shift($datainfo) ?>
+<?php   foreach($datainfo as $v=>$k): ?>
+<tr>
+ <td><div>
+<?php echo $k[outer_iid] ?>
+</div></td>
+ <td><div class="cr"><?php
+         $win=strtok($k[sku_pro_name],'/');
+         $wide=strtok('*');
+         $long=strtok(';');
+         echo $wide.'×';
+         echo $long.'×';
+         echo $datainfo[$v][num];
+         
+         ?> </div></td>
+ <td><div class="rt"><?php  
+  
+         $numLong=$long*$datainfo[$v][num];  echo $numLong; ?>米</div></td>
+</tr>
+<?php endforeach; ?>
+
+
+</tbody></table>
+
+<div style="font-size:14px; margin-top:10px;text-align:left;float:left;">
+    <div style="float:left; width:220px; ">日期：<?php  if($data[0][nvoice_no_time]){echo $data[0][nvoice_no_time]; }else{echo date('Y/m/d') ;} ?></div>
+    <div style="float:right;width:220px;text-align:right;margin-right:10px;">打单：<?php echo(cookie('admin')['username']) ?></div></div>
+
+<div style="font-size:14px; margin-top:10px;text-align:left;float:left;">说明：包装规格参见订单留言或备注信息，如没有详细说明，包装规格按10米/卷，YL包装规格请按实际要求包装。</div>
+
+</div>
+
+
+
+
+
+
+
+</body></html>

@@ -1,0 +1,86 @@
+<layout name='main' />
+
+
+
+
+<form action="" method="post">
+    <div style="width:980px; float:right; text-align:left; padding:0; font-size:14px; margin-top:20px;">
+		<table style="padding:0; margin:auto;" width="980" cellspacing="1" cellpadding="1" border="0" bgcolor="#E1E1E1" align="center">
+
+      <tbody><tr>
+        <td colspan="2" style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#f7f7f7" align="center" height="30"> 编辑库存</td>
+  </tr>
+  <tr>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " width="150" bgcolor="#FFFFFF" align="right">编号：</td>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; color:#666666; " bgcolor="#FFFFFF" align="left">
+    <?php echo $data['outer_id'] ?><input name="Outer_id" id="Outer_id" value="Y61101" type="hidden">
+   
+      <input name="act" id="act" value="lists" type="hidden">
+      <input name="classid" id="classid" value="0" type="hidden">
+      <input name="keywords" id="keywords" value="" type="hidden">
+      <input name="p" id="p" value="0" type="hidden"></td>
+  </tr>
+  <!--tr>
+    <td align="right" bgcolor="#FFFFFF" style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; ">厚度：</td>
+    <td align="left" bgcolor="#FFFFFF" style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; color:#666666; "><input name="ProThick" type="text" class="input" id="ProThick" value="" size="30" />
+    S (丝)</td>
+  </tr-->
+  <tr>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">规格：</td>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; color:#666666; " bgcolor="#FFFFFF" align="left">
+            <?php echo $data['spec'] ?>
+      </td>
+  </tr>
+<tr>
+  <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">库存：</td>
+  <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; color:#666666; " bgcolor="#FFFFFF" align="left">
+      <input name="stock_num" id="Stock" value="<?php echo $data['stock_num'] ?>" type="test">
+   
+    件</td>
+</tr>
+<tr>
+  <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">预警库存：</td>
+  <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; color:#666666; " bgcolor="#FFFFFF" align="left">
+      <input name="a_stoct" value='<?php echo $data["a_stoct"] ?>' type="text"/>
+       M
+    </td>
+</tr>
+<tr>
+  <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">库位：</td>
+  <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; color:#666666; " bgcolor="#FFFFFF" align="left">
+      <input name="location" class="input" id="Location" value="<?php echo $data['location'] ?>" style="width:200px;" type="text"> 
+    产品存储位置</td>
+</tr>
+  <tr>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">批号：</td>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; color:#666666; " bgcolor="#FFFFFF" align="left">
+        <input name="batch_number" class="input" id="BatchNumber" value="<?php echo $data['batch_number'] ?>" style="width:200px;" type="text"></td>
+  </tr>
+  
+  
+  <tr>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">分类：</td>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="left">
+            <?php echo $data['cat_name']; ?>
+    </td>
+  </tr>
+      <input name="id" value="<?php echo $data['id'] ?>" type="hidden"/>
+ <tr>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">备注：</td>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; color:#FF6666; " bgcolor="#FFFFFF" align="left">
+        <textarea name="remark" cols="120" rows="5" class="textarea" id="Remark">
+            <?php echo $data['remark'] ?>
+        </textarea></td>
+  </tr>
+  <tr>
+    <td colspan="2" style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#f7f7f7" align="center" height="30">
+        <input class="btn" name="button" id="button" value="&nbsp;提交&nbsp;" style="width:150px; height:50px;" type="submit">
+        <input value="&nbsp;返回&nbsp;" class="btn" onclick="javascript:window.history.go(-1);" style="width:150px; height:50px;" type="hidden"> 
+    </td>
+  </tr>
+  
+</tbody></table>
+	</div>
+ </div>
+
+</form>

@@ -1,0 +1,91 @@
+<layout name="main" />
+
+<style type="text/css">
+	.sortnamecss { width:60px; height:25px;}
+	.employee_menu		{ float:left; width:120px; height:40px; line-height:40px;border-right:#E1E1E1 1px solid; text-align:center;  }
+	.employee_menu_type	{ background: #F9F9F9;}
+	.employee_menu_curr	{ background: #F90;}
+	.div_style {  
+		position:absolute; 
+		left:50%; 
+		/*top:50%;*/ 
+		margin-left:-250px; 
+		margin-top:100px; 
+	} 
+</style>
+
+
+
+
+
+<div style="width:1200px; margin:0 auto;" >
+	
+
+    <div style="width:980px; float:right; text-align:left; padding:0; font-size:14px; margin-top:20px;">
+		
+		<table style="padding:0; margin:auto;" id="recordlist" width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="#E1E1E1" align="center">
+			 <tbody><tr align="center" height="30">
+               <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7">工号</td>
+               <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7">姓名</td>
+               <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7">联系手机</td>
+               <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="13%" bgcolor="#f7f7f7">分组</td>
+               <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7">部门</td>
+               <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7">岗位</td>
+				<td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7">登录状态</td>
+                <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7">考勤状态</td>
+                <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="17%" bgcolor="#f7f7f7">操作</td>
+		  </tr>
+                         	
+<?php foreach($user_list as $v=>$k): ?>
+<tr style="FONT-SIZE:14px; color:#666666;" class="changecolour" bgcolor="#FFFFFF">
+<td style="height:40px;" class="" align="center">&nbsp;<?php echo $k['job_numbers'] ?>    &nbsp;</td>
+<td class="" align="center">&nbsp;&nbsp;<?php echo $k['username'] ?>&nbsp;</td>
+<td class="" align="center">&nbsp;&nbsp;<?php echo $k['mobile'] ?>&nbsp;</td>
+<td class="" align="center">&nbsp;&nbsp;<?php echo $shoplist[$k['shop_group']]; ?>&nbsp;</td>
+<td class="" align="center">&nbsp;&nbsp;<?php echo $deptlist[$k['departid']]; ?>&nbsp;</td>
+<td class="" align="center">&nbsp;&nbsp;<?php echo $k['role_name'] ?>&nbsp;</td>
+<td class="" align="center"><font color="blue">
+<?php 
+    switch ($k['is_active'])
+{
+case 0:
+	echo '<font color="bulue">锁定状态</font>';
+	break;
+case 1:
+	echo '<font color="green">状态正常</font>';
+	break;
+case 2:   
+        echo '<font color="red">离职状态!</font>';
+        break;
+default:
+	echo '<p>该用户状态出错</p>';
+}
+    
+    ?>
+    </font></td>
+<td class="" align="center"><font color="#666666"><?php echo $k['is_iuqn']==1?'考勤':'不考勤' ?></font></td>
+<td class="" valign="middle" align="center"><input name="button_33" class="btn sortnamecss" style="width:50px;" id="button_33" value="删除" onclick="location.href='__MODULE__/Admin/Admindel/id/<?php echo $k[id] ?>'" type="button">&nbsp;<input name="button_33" class="btn sortnamecss" style="width:50px;" id="button_33" value="恢复" onclick="location.href='__MODULE__/Admin/res/id/<?php echo $k[id] ?>'" type="button">&nbsp;<input name="button_33" class="btn sortnamecss" style="width:50px;" id="button_33" value="日志" onclick="AjaxLogList('33','1');" type="button"></td>
+</tr>
+
+<?php endforeach; ?>
+			
+		
+		</tbody></table>
+		<br>
+	<table style="padding:0; margin:auto;" width="980" cellspacing="1" cellpadding="1" border="0" bgcolor="#E1E1E1" align="center">
+			  <tbody><tr>
+                                  
+				<td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:18px;" bgcolor="#F9F9F9" align="center"><div style="position:relative;width:250px; float:left; margin:0; padding:0;text-align:left;"><form action="index.asp" method="get" style="margin:0; padding:0;"><input name="action" id="action" value="" type="hidden"><input name="keywords" class="search_input" id="keywords" value="" style="width:160px" type="text">&nbsp;<input name="button" class="search_btn" id="button" value="搜索" type="submit">
+		  </form></div>
+                      
+<div class='<?php echo $div_class; ?>' style=''>
+    <ul>
+    <?php echo $showPage ?>
+    </ul>
+</div>
+              
+		</tbody></table>
+
+	</div>
+</div>
+

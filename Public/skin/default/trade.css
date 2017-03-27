@@ -1,0 +1,96 @@
+
+
+#divtopnav{
+	height:50px;
+	z-index:98;
+	width:1198px; 
+	border:#DDDDDD 1px solid; 
+	background:#f9f9f9; 
+	float:left; 
+	text-align:left;
+	margin-bottom:20px; 
+	font-size:14px;
+}
+
+
+.bottom_btn{
+	margin:10px 10px;
+	height:30px; 
+	line-height:30xp; 
+	color:#FFF; 
+	border:0px;
+}
+
+#tradelist{
+	width:1200px; 
+	float:right; 
+	text-align:left; 
+	padding:0; 
+	font-size:14px; 
+	margin-bottom:20px;
+}
+
+#tradelist_info{
+	width:1200px; 
+	border:#E1E1E1 1px solid;
+	float:right; 
+	text-align:left; 
+	padding:50px 0px; 
+	font-size:14px; 
+	margin:0px;
+	background:#eef5fe;
+}
+
+.clear{clear: both;overflow: hidden;height: 0}
+
+.fixer{
+	position:fixed;
+	_position: absolute;
+	margin-top:0px;
+	_margin-top:0px;
+	top:0px;
+	_top:expression(documentElement.scrollTop+50 +  "px")
+																		
+}
+
+.trcolor2{ background:#eef5fe; }
+.show_tr { FONT-SIZE: 12px; color:#666666;}
+
+
+
+
+
+/*--------------------------------------------*/
+
+ul.topnav {margin: 10px 0 0 0;padding: 0; position:absolute; text-align:center; color:#FFF;float: left; z-index:9999;}
+ul.topnav li {
+	float: left;
+	margin: 0;
+	padding: 0 10px 0 10px;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+	display: inline;
+	cursor: pointer;
+}
+ul.topnav li div{ width:90px; float:left; background:#C69; height:30px; margin:0px; line-height:30px;cursor: pointer;}
+ul.topnav li a{display: block;text-decoration: none;white-space: nowrap}
+ul.topnav li a { /*--Drop down trigger styles--*/
+	height:30px; line-height:25px; width:20px;color: #ffffff;
+	float: left;
+	background: #666666;
+}
+ul.topnav li a.subhover { /*--Hover effect for trigger--*/
+    background-position: center bottom; cursor: pointer;
+}   
+ul.topnav li ul.subnav {
+	width: 110px;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 10px; top: 30px;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+}
+ul.topnav li ul.subnav li{
+	width: 110px; height:28px; line-height:26px; text-align:center;
+	margin: 0; padding: 0;
+	clear: both;
+}

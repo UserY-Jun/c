@@ -1,0 +1,808 @@
+[ 2017-03-11T08:21:40+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:21:46+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:21:47+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:22:50+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:22:50+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:24:28+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s/keywords/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:24:28+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s/keywords/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:26:31+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:26:51+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:27:00+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:27:02+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:28:30+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:28:53+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:29:01+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:29:02+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:29:20+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList.html/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:TradeList.html
+
+[ 2017-03-11T08:31:55+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList.html/OrderStateID/9
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:TradeList.html
+
+[ 2017-03-11T08:32:46+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:32:48+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList.html/OrderStateID/7
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:TradeList.html
+
+[ 2017-03-11T08:33:09+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList.html/OrderStateID/3
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:TradeList.html
+
+[ 2017-03-11T08:33:19+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList.html/OrderStateID/2
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:TradeList.html
+
+[ 2017-03-11T08:34:25+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:34:28+08:00 ] 127.0.0.1 /index.php/Admin/Trade/url/OrderStateID/4
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:url
+
+[ 2017-03-11T08:34:44+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:34:46+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/OrderStateID/9
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:35:22+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/OrderStateID/9
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:35:26+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/OrderStateID/9/OrderStateID/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:35:28+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/OrderStateID/9/OrderStateID/7/RecentDays/30
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:35:32+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/OrderStateID/9/OrderStateID/7/RecentDays/30/RecentDays/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:39:37+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/OrderStateID/9/OrderStateID/7/RecentDays/30/RecentDays/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:39:43+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/OrderStateID/9/OrderStateID/7/RecentDays/30/RecentDays/1?p=2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:41:01+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/OrderStateID/9/OrderStateID/7/RecentDays/30/RecentDays/1?p=2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:41:09+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:41:11+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:41:18+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:41:22+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:41:27+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/3/RecentDays/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:41:29+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/3/RecentDays/3/OrderStateID/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T08:41:36+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/RecentDays/3/OrderStateID/7/p/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:05:51+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-11T10:05:51+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-11T10:05:51+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-11T10:05:51+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-11T10:05:52+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-11T10:05:52+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-11T10:05:56+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/RecentDays/3/OrderStateID/7/p/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:26:34+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/RecentDays/3/OrderStateID/7/p/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:26:46+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/RecentDays/3/OrderStateID/7/p/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:28:24+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/RecentDays/3/OrderStateID/7/p/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:28:43+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/RecentDays/3/OrderStateID/7/p/5/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:28:53+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:30:14+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:30:16+08:00 ] 127.0.0.1 /index.php/Admin/Trade/www.baidu.com
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:www.baidu.com
+
+[ 2017-03-11T10:31:03+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:31:06+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/invoice_status_time/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:31:46+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/invoice_status_time/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:31:59+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/invoice_status_time/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:32:11+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/invoice_status_time/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:32:42+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/invoice_status_time/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:33:09+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/invoice_status_time/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:33:15+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:33:23+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:33:25+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/invoice_status_time/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:33:30+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/invoice_status_time/1/OrderStateID/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:34:26+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/invoice_status_time/1/OrderStateID/3/RecentDays/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:34:30+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/invoice_status_time/1/OrderStateID/3/RecentDays/3/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:35:53+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/invoice_status_time/1/OrderStateID/3/RecentDays/3/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:39:35+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/invoice_status_time/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:43:40+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:43:46+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/30
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:44:04+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/30/RecentDays/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:44:43+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:46:35+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:46:52+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:47:00+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:47:12+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:48:09+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:48:37+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:48:49+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:52:29+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:52:31+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/7/RecentDays/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:52:33+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/7/RecentDays/1/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:52:44+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/7/RecentDays/1/RecentDays/7/OrderStateID/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:52:48+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/7/RecentDays/1/RecentDays/7/OrderStateID/7/RecentDays/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:52:51+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/7/RecentDays/1/RecentDays/7/OrderStateID/7/RecentDays/3/OrderStateID/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:53:13+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/7/RecentDays/1/RecentDays/7/OrderStateID/7/RecentDays/3/OrderStateID/5/button/s/keywords/22
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:53:21+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/7/RecentDays/1/RecentDays/7/OrderStateID/7/RecentDays/3/OrderStateID/5/button/s/keywords/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:53:32+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/7/RecentDays/1/RecentDays/7/OrderStateID/7/RecentDays/3/OrderStateID/5/button/s/keywords/1/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:53:35+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/7/RecentDays/1/RecentDays/7/OrderStateID/7/RecentDays/3/OrderStateID/5/button/s/keywords/1/RecentDays/7/RecentDays/-1
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'operation_url' at row 1
+
+[ 2017-03-11T10:53:40+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/7/RecentDays/1/RecentDays/7/OrderStateID/7/RecentDays/3/OrderStateID/5/button/s/keywords/1/RecentDays/7/OrderStateID/3
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'operation_url' at row 1
+
+[ 2017-03-11T10:53:55+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/7/RecentDays/1/RecentDays/7/OrderStateID/7/RecentDays/3/OrderStateID/5/button/s/keywords/1/RecentDays/7/RecentDays/30
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'operation_url' at row 1
+
+[ 2017-03-11T10:54:49+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:59:46+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:59:49+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T10:59:51+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:00:52+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:01:33+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:03:11+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:03:20+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:03:29+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:03:33+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:03:39+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:03:52+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/3/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:04:07+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/3/RecentDays/7/RecentDays/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:04:13+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/3/RecentDays/7/RecentDays/3/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:04:50+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/3/RecentDays/7/RecentDays/3/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:04:55+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/3/RecentDays/7/RecentDays/3/RecentDays/7/RecentDays/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:04:58+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/3/RecentDays/7/RecentDays/3/RecentDays/7/RecentDays/3/OrderStateID/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:05:01+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/3/RecentDays/7/RecentDays/3/RecentDays/7/RecentDays/3/OrderStateID/7/OrderStateID/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:05:04+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/3/RecentDays/7/RecentDays/3/RecentDays/7/RecentDays/3/OrderStateID/7/OrderStateID/5/OrderStateID/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:05:07+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/3/RecentDays/7/RecentDays/30/RecentDays/3/RecentDays/7/RecentDays/3/RecentDays/7/RecentDays/3/OrderStateID/7/OrderStateID/5/OrderStateID/2/button/s/keywords/1
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'operation_url' at row 1
+
+[ 2017-03-11T11:09:08+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:09:10+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:09:13+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/button/s/keywords/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:09:21+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/button/s/keywords/12
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:09:39+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/button/s/keywords/12/OrderStateID/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:09:44+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/7/button/s/keywords/12
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:09:46+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/7/button/s/keywords/12/OrderStateID/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:09:48+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/7/OrderStateID/3/button/s/keywords/12
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:09:50+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/7/OrderStateID/3/button/s/keywords/12/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:09:52+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/7/OrderStateID/3/OrderStateID/0/button/s/keywords/12
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:09:54+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/7/OrderStateID/3/OrderStateID/0/button/s/keywords/12/OrderStateID/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:09:55+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/7/OrderStateID/3/OrderStateID/0/OrderStateID/5/button/s/keywords/12
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:09:58+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/7/OrderStateID/3/OrderStateID/0/OrderStateID/5/button/s/keywords/12/RecentDays/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:09:59+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/7/OrderStateID/3/OrderStateID/0/OrderStateID/5/RecentDays/3/button/s/keywords/12
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:02+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/7/OrderStateID/3/OrderStateID/0/OrderStateID/5/RecentDays/3/button/s/keywords/12/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:04+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/7/OrderStateID/3/OrderStateID/0/OrderStateID/5/RecentDays/3/RecentDays/7/button/s/keywords/12
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:07+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/7/OrderStateID/3/OrderStateID/0/OrderStateID/5/RecentDays/3/RecentDays/7/button/s/keywords/55
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:09+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/7/OrderStateID/3/OrderStateID/0/OrderStateID/5/RecentDays/3/RecentDays/7/button/s/keywords/44554
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:15+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:17+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:20+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/button/s/keywords/5445
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:22+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/button/s/keywords/5445/RecentDays/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:24+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/button/s/keywords/5445/RecentDays/1/OrderStateID/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:25+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/RecentDays/1/OrderStateID/7/button/s/keywords/5445
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:28+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/RecentDays/1/OrderStateID/7/button/s/keywords/5445/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:30+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/RecentDays/1/OrderStateID/7/button/s/keywords/5445/RecentDays/7/RecentDays/30
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:32+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/RecentDays/1/OrderStateID/7/button/s/keywords/5445/RecentDays/7/RecentDays/30/OrderStateID/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:34+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/RecentDays/1/OrderStateID/7/button/s/keywords/5445/RecentDays/7/RecentDays/30/OrderStateID/5/OrderStateID/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:36+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/RecentDays/1/OrderStateID/7/button/s/keywords/5445/RecentDays/7/RecentDays/30/OrderStateID/5/OrderStateID/2/OrderStateID/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:10:42+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:12:19+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:12:24+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:12:26+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:14:29+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/7/button/s/keywords/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:14:32+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:14:43+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/1/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:14:48+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/1/RecentDays/7/RecentDays/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:15:34+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:15:37+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:15:42+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:15:44+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:15:46+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:15:58+08:00 ] 127.0.0.1 /index.php/Admin/Products/ProductsEdit/id/13
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:17:07+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:17:10+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/11
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:17:15+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/11/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:17:18+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/12
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:17:20+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:17:23+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/1/RecentDays/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:17:25+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/1/RecentDays/1/RecentDays/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:17:33+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:17:42+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/RecentDays/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:17:44+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/RecentDays/1/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:18:44+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/RecentDays/1/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:18:47+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:19:00+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:19:04+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:19:13+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/OrderStateID/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:20:29+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:20:31+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/123
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:20:35+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:21:17+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/OrderStateID/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:21:25+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/%20ying19930503
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:24:41+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:24:46+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:25:16+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:25:19+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:25:45+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:25:48+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:25:58+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:26:09+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:26:15+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/16/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:26:25+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:26:27+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:26:34+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/%E5%B0%9A%E6%B2%90925
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:26:43+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/%E5%91%A8%E6%85%A7%E5%A8%B410
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:27:14+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:27:17+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:27:21+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/%E5%B0%9A%E6%B2%90925
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:27:23+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:27:33+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/%E5%91%A8%E6%85%A7%E5%A8%B410
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:27:36+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/%E5%91%A8%E6%85%A7%E5%A8%B410/RecentDays/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:27:46+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:29:01+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:58:21+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:58:23+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:58:27+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:58:44+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T11:59:52+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:01:29+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:02:10+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:02:52+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:05:21+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:07:55+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:08:06+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:10:44+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:11:52+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:14:41+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:15:33+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:17:35+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:17:44+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:17:48+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:17:51+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:18:16+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:20:00+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:21:46+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:21:58+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:28:25+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:39:03+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/p/2/OrderStateID/4
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:40:31+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/p/2/OrderStateID/4
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:40:39+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:41:01+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T12:42:34+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:01:26+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:01:34+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:01:40+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:01:43+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:01:45+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:02:00+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/OrderStateID/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:02:10+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/OrderStateID/3/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:02:12+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:28:19+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:28:55+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:31:07+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:31:45+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:34:55+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:35:03+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:36:42+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:36:47+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:42:26+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/p/2/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:42:30+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/15/p/2/OrderStateID/0/OrderStateID/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:42:38+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:42:42+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/16?keywords=11
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:42:45+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/16?keywords=1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:42:50+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/16?keywords=12
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:43:00+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/16?keywords=12/OrderStateID/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:43:11+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:43:14+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST?keywords=12
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:43:24+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:43:28+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/12
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:43:33+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/12/OrderStateID/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:44:56+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/12/OrderStateID/7/OrderStateID/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:45:01+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:45:07+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T13:45:33+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T14:29:02+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-11T14:29:03+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-11T14:29:03+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-11T14:29:03+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-11T14:29:03+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-11T14:29:03+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-11T14:29:06+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T14:29:08+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T14:29:12+08:00 ] 127.0.0.1 /index.php/Admin/role/roleList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T14:29:14+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-11T14:29:16+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+

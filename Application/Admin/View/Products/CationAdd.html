@@ -1,0 +1,45 @@
+<layout name="main"/>
+
+
+
+
+
+
+    
+    <div style="width:980px; float:right; text-align:left; padding:0; font-size:14px; margin-top:20px;">
+		<table style="padding:0; margin:auto;" width="980" cellspacing="1" cellpadding="1" border="0" bgcolor="#E1E1E1" align="center">
+                    
+<form action="" method="post"  enctype="multipart/form-data"  >
+      <tbody>
+
+  
+  <tr>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " width="150" bgcolor="#FFFFFF" align="right">分类名称：</td>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="left"><input name="cat_name" id="Title" value="" size="30" class="input" type="text"></td>
+  </tr>
+
+  <tr>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">所属分类：</td>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="left">
+        
+            <select name="parent_id">
+     <option value="0">--顶级分类--</optopm>
+     <?php foreach($catlist as $rows): ?>
+     <option value="<?php echo $rows['id'] ?>"><?php echo str_repeat('&nbsp',$rows['lave']*3).$rows['cat_name'] ?></option>
+     <?php endforeach; ?>
+            </select>
+ <br/>
+        
+        
+        </td>
+  </tr>
+
+  
+    <tr>
+        <td colspan="2" style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#f7f7f7" align="center" height="30"> <input value="&nbsp;返回&nbsp;" class="btn" onclick="javascript:window.history.go(-1);" type="button"> <input class="btn" name="button" id="button" value="&nbsp;提交&nbsp;" type="submit"></td>
+  </tr>
+  
+ </form>
+</tbody></table>
+	</div>
+ </div>

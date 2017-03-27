@@ -1,0 +1,341 @@
+[ 2017-03-24T09:58:24+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T09:58:24+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T09:58:24+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T09:58:24+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T09:58:24+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T09:58:24+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T10:00:20+08:00 ] 127.0.0.1 /index.php/Admin/trade/AjaxOrdersStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0029s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/AjaxOrdersStatus','1490320815',NULL,'浏览页面') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 24 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 24 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='10:00:16' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 24 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_orders` WHERE ( tid_s = 299994 ) LIMIT 1   [ RunTime:0.4014s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status_num`=invoice_status_num+1 WHERE ( tid_s = 299994 ) [ RunTime:1.6270s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '299994' LIMIT 1   [ RunTime:0.3555s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status`='1',`invoice_status_time`='2017-03-24 10:00:16' WHERE `tid_s` = '299994' [ RunTime:1.6416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-24T10:00:33+08:00 ] 127.0.0.1 /index.php/Admin/trade/AjaxOrdersStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_privilege` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'privilege' AND c.action_name = 'Authorization' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_shop` [ RunTime:0.0039s ]
+SQL: SELECT `id`,`seller_nick` FROM `cms_shop`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                          LEFT JOIN cms_privilege c ON b.pri_id=c.id   WHERE a.user_id = '1' AND c.module_name = 'admin' AND c.controller_name = 'shop' AND c.action_name = 'shoplist' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] unlink(./Application/Runtime/Temp/6cc2d5b13f4b8c0c7959a85ecc71674f.php): No such file or directory D:\c\ThinkPHP\Library\Think\Cache\Driver\File.class.php 第 157 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\c\Application\Admin\Controller\BaseController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 157 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/AjaxOrdersStatus','1490320829',NULL,'浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 24 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 24 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `e_time`='10:00:29' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 24 [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_orders` WHERE ( tid_s = 299976 ) LIMIT 1   [ RunTime:0.3662s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status_num`=invoice_status_num+1 WHERE ( tid_s = 299976 ) [ RunTime:1.6299s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '299976' LIMIT 1   [ RunTime:0.3535s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status`='1',`invoice_status_time`='2017-03-24 10:00:29' WHERE `tid_s` = '299976' [ RunTime:1.6455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-24T10:35:25+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T10:35:25+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T10:35:25+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T10:35:25+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T10:35:25+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:05:44+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T11:05:44+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:05:44+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:05:44+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:06:52+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T11:06:52+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:06:52+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:06:52+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/msg_err.wav
+ERR: 非法操作:msg_err.wav
+
+[ 2017-03-24T11:08:13+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T11:08:13+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:08:13+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:08:13+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:08:13+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/msg_err.wav
+ERR: 非法操作:msg_err.wav
+
+[ 2017-03-24T11:24:35+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T11:24:35+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:24:35+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:24:35+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:24:35+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/msg_err.wav
+ERR: 非法操作:msg_err.wav
+
+[ 2017-03-24T11:55:29+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T11:55:29+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:55:29+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:55:29+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:55:29+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/msg_err.wav
+ERR: 非法操作:msg_err.wav
+
+[ 2017-03-24T11:55:31+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/www.baidu.com
+ERR: 非法操作:www.baidu.com
+
+[ 2017-03-24T11:56:09+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T11:56:09+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:56:09+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:56:09+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:56:09+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/msg_err.wav
+ERR: 非法操作:msg_err.wav
+
+[ 2017-03-24T11:56:23+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T11:56:23+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:56:23+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:56:23+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:56:23+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/msg_err.wav
+ERR: 非法操作:msg_err.wav
+
+[ 2017-03-24T11:56:24+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T11:56:24+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:56:24+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:56:24+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:56:24+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/msg_err.wav
+ERR: 非法操作:msg_err.wav
+
+[ 2017-03-24T11:58:25+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T11:58:25+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:58:25+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:58:25+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:58:25+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/msg_err.wav
+ERR: 非法操作:msg_err.wav
+
+[ 2017-03-24T11:58:26+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:58:26+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T11:58:26+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:58:26+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:58:27+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/msg_err.wav
+ERR: 非法操作:msg_err.wav
+
+[ 2017-03-24T11:58:28+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T11:58:28+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:58:28+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:58:28+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:58:28+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/msg_err.wav
+ERR: 非法操作:msg_err.wav
+
+[ 2017-03-24T11:58:29+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:58:29+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T11:58:29+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:58:29+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/msg_err.wav
+ERR: 非法操作:msg_err.wav
+
+[ 2017-03-24T11:58:38+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T11:58:38+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:58:38+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:58:38+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:58:38+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/msg_err.wav
+ERR: 非法操作:msg_err.wav
+
+[ 2017-03-24T11:59:02+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T11:59:02+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:59:02+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:59:02+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T11:59:02+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/msg_err.wav
+ERR: 非法操作:msg_err.wav
+
+[ 2017-03-24T12:05:29+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-24T12:05:29+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T12:05:29+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T12:05:29+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-24T12:05:29+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/msg_err.wav
+ERR: 非法操作:msg_err.wav
+
+[ 2017-03-24T14:54:47+08:00 ] 127.0.0.1 /index.php/Admin/Weightstation/msg_err.wav
+ERR: 非法操作:msg_err.wav
+
+[ 2017-03-24T15:20:23+08:00 ] 127.0.0.1 /index.php/admin/test/createQRcode
+ERR: 参数错误或者未定义:save_path
+
+[ 2017-03-24T15:27:46+08:00 ] 127.0.0.1 /index.php/Admin/test/generateQRfromGoogle
+ERR: 参数错误或者未定义:chl
+

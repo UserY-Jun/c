@@ -1,0 +1,272 @@
+<layout name="main" />
+
+
+
+
+
+
+
+    
+    <div style="width:980px; float:right; text-align:left; padding:0; font-size:14px; margin-top:20px;">
+    <form action="" method="post"  enctype="multipart/form-data"  >    
+		<table style="padding:0; margin:auto;" width="980" cellspacing="1" cellpadding="1" border="0" bgcolor="#E1E1E1" align="center">
+
+     <div  style="position:absolute; margin-left:717px;margin-top: 41px; width: 270px;height: 140px;" >
+     <div id="localImag" style=" height: 203px; width: 250px; background:#ffffff;border-style:solid;border-width:5pt; border-color:#E1E1E1;">
+     <image id="preview" style="height: 203px; width: 250px;"src=''></div></div>       
+      <tbody><tr>
+        <td colspan="2" style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#f7f7f7" align="center" height="30"> 添加新品</td>
+  </tr>
+  <tr>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " width="150" bgcolor="#FFFFFF" align="right">产品名称：</td>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="left"><input name="title" id="Title" value="" size="30" class="input" type="text"></td>
+  </tr>
+  
+    <tr>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " width="150" bgcolor="#FFFFFF" align="right">产品图片：</td>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="left"><input id="doc" onchange="javascript:setImagePreview();"  type="file"  onchange="javascript:PreviewImg(this);"  name="logo"   size="30"  ></td>
+  </tr>
+  
+    <tr>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">图案风格：</td>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="left"><select name="style_id" id="ProStyle" class="wenbenkuang" style="width:120px;">
+          <option value="0">--请选择--</option>
+          <?php foreach($stylelist as $v=>$k): ?>
+          <option value="<?php echo $k['id'] ?>"><?php echo $k['style_name']  ?></option>
+          <?php endforeach; ?>
+        </select></td>
+  </tr>
+  <tr>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">产品分类：</td>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="left"><select name="cat_id" id="Pro_ClassID" class="wenbenkuang" style="width:120px;">
+        
+        <?php foreach($catlist as $v=>$k): ?>
+        <option class="input" value="<?php echo $k['id'] ?>"><?php echo $k['cat_name'] ?></option>
+        <?php endforeach; ?>
+
+        </select></td>
+  </tr>
+  
+  
+  
+  
+  
+
+  <tr>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">产品编号：</td>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="left"><input name="outer_id" id="Outer_id" value="" size="30" class="input" type="text">
+    <!--    <input name="act" id="act" value="" type="hidden">
+        <input name="classid" id="classid" value="0" type="hidden">
+        <input name="keywords" id="keywords" value="" type="hidden">
+        <input name="p" id="p" value="0" type="hidden">
+        <input name="SpecialID" id="SpecialID" value="0" type="hidden">   -->
+        </td>
+  </tr>
+  
+   <tr>
+        <td class="label" style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">产品类型：</td>
+        
+             <td  style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; color:#666666; " bgcolor="#FFFFFF" align="left">
+                       <?php buildSelect('Type','type_id','id','type_name'); ?>
+                       <!--把ajax取回的属性数据放到这里-->
+                       <ul id="attr_list">          </ul>
+             </td>
+   </tr>
+
+  
+  <tr>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">/材料宽度：</td>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; color:#666666; " bgcolor="#FFFFFF" align="left"><input name="ProWidth" class="input" id="ProWidth" value="" size="30" type="text">
+    cm</td>
+  </tr>
+  <tr>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">/材料长度：</td>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; color:#666666; " bgcolor="#FFFFFF" align="left"><input name="ProLength" class="input" id="ProLength" value="" size="30" type="text"> 
+    M</td>
+  </tr>
+  <tr>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">/分卷类型：</td>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; color:#666666; " bgcolor="#FFFFFF" align="left"><input name="RollType" class="input" id="RollType" value="" size="30" type="text">
+    M/卷，多个规格的分卷，用“,”隔开，如：5,10,20,30</td>
+  </tr>
+  <tr>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">主推广标题：</td>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="left"><input name="sub_title" id="SubTitleA" value="" size="60" class="input" onpropertychange="getTitleLen()" type="text"> 标题&nbsp;<span id="SubTitleNum">0</span>&nbsp;字&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">历史推广标题：</td>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:28px; " bgcolor="#FFFFFF" align="left">
+    暂无历史推广标题
+    </td>
+  </tr>
+  <tr>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">产品简介：</td>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; color:#FF6666; " bgcolor="#FFFFFF" align="left"><input name="summ" class="input" id="Summ" value="" size="120" type="text"></td>
+  </tr>
+  <tr>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">宝贝卖点：</td>
+    <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; color:#FF6666; " bgcolor="#FFFFFF" align="left"><textarea name="selling_point" cols="120" rows="3" class="textarea" id="SellingPoint"></textarea>
+    
+    
+    </td>
+  </tr>
+
+  <tr>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="right">上架店铺：</td>
+        <td style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#FFFFFF" align="left" id='select_td' >
+            <select name="shop_id[]" id="ShopType" class="wenbenkuang" style="width:120px;">
+          <option value="0" selected="">未上架</option>
+          <?php foreach($grouplist as $v=>$k): ?>
+          <option value="<?php echo $k['id'] ?>"  ><?php echo $k['shop_name'] ?></option>
+          <?php endforeach; ?>
+        </select>
+            
+        <input type="button" id="btn_add_cat_select" value="添加" name=''/>
+        
+        </td>
+  </tr>
+  <tr>
+        <td colspan="2" style="PADDING:5px 10px; FONT-SIZE: 14px; line-height:20px; " bgcolor="#f7f7f7" align="center" height="30"> <input value="&nbsp;返回&nbsp;" class="btn" onclick="javascript:window.history.go(-1);" type="button"> <input class="btn" name="button" id="button" value="&nbsp;提交&nbsp;" type="submit"></td>
+  </tr>
+  
+      
+  
+  
+</tbody></table>
+	</div>
+ </div>
+ 
+</form>
+
+ 
+ 
+ 
+ 
+               
+<script type="text/javascript">
+    /****************************/
+ //为类型绑定JS事件
+    $("select[name=type_id]").change(function(){
+       
+        //获取选中的类型id
+       var type_id = $(this).val();
+       if(type_id>0){
+           //执行ajax获取这个类型下面的属性
+           $.ajax({
+               type:"GET",
+               url:"<?php echo U('ajaxGetAttr','',FALSE); ?>/type_id/"+type_id,
+               dataType:"json",
+               success:function(data){
+                   var attHtml = "";   //拼出属性表单的字符串
+                   //把服务器返回的属性数据进行循环输出
+                   alert(1);
+                   $(data).each(function(k,v){
+                       attHtml+="<li>";
+                      if(v.attr_type==1)
+                           attHtml+="<a onclick='addNewLi(this);' href='javascript:void(0);' >[+]</a>";
+                       attHtml +=v.attr_name +":";
+                       //如果这个属性有可选值就输出下拉框,没有就输出文本框
+                       if(v.attr_option_values=='')
+                          attHtml +='<input name="pro_attr['+v.id+'][]" type="text" />';
+                      else{
+                          /******属性有可选值,制作下拉框**********/
+                          attHtml +='<select name="pro_attr['+v.id+'][]">';
+                          attHtml += '<option value="">请选择.....</option>';
+                         //制作下拉框的可选数据,根据,号转化为数组
+                         var _attr = v.attr_option_values.split(',');
+                         //循环输出可选值,制作下拉框的选项
+                         $(_attr).each(function(k1,v1){
+                             attHtml +='<option value="'+v1+'">'+v1+'</option>';
+                         });
+                         attHtml += '</select>';
+                      }
+                      //如果属性是可选值就添加属性价格字段
+                      if(v.attr_type==1)
+                          attHtml += '属性价格:¥<input type="text" name="attr_price['+v.id+'][]" size="8" />元';
+                      attHtml+="</li>";
+                   });
+                   //alert(attHtml);
+                   //把拼好的属性表单放入页面中
+                   $("#attr_list").html(attHtml);
+               }
+           });
+       }else{
+         //如果没有选中类型就清空表单中的属性框  
+        $("#attr_list").html('');
+       }
+    });
+  //点击属性的+或者-
+  function addNewLi(a){
+      //获取a所在的li标签,先把a使用$()转化为jquery对象,然后再调用parent()
+      var li =$(a).parent();
+      if($(a).html()=="[+]"){
+       //克隆一个新的li
+       var newLi = li.clone();
+       newLi.find("a").html('[-]');
+       newLi.find('a').attr('pro_attr_id','');
+       newLi.find('input').attr('value','');
+       //把新的发到旧的后面
+       li.after(newLi);
+      }else
+          li.remove();
+  }
+    /*************************************************************************/
+    
+
+    
+        $('#btn_add_cat_select').click(function(){
+       var select=$('#select_td').find('select').eq(0).clone();
+       $(this).before(select);   
+    });
+
+
+function setImagePreview(avalue) {
+var docObj=document.getElementById("doc");
+ 
+var imgObjPreview=document.getElementById("preview");
+if(docObj.files &&docObj.files[0])
+{
+//火狐下，直接设img属性
+//imgObjPreview.style.display = 'block';
+//imgObjPreview.style.width = '150px';
+//imgObjPreview.style.height = '180px'; 
+//imgObjPreview.src = docObj.files[0].getAsDataURL();
+ 
+//火狐7以上版本不能用上面的getAsDataURL()方式获取，需要一下方式
+imgObjPreview.src = window.URL.createObjectURL(docObj.files[0]);
+}
+else
+{
+//IE下，使用滤镜
+docObj.select();
+var imgSrc = document.selection.createRange().text;
+var localImagId = document.getElementById("localImag");
+//必须设置初始大小
+localImagId.style.width = "150px";
+localImagId.style.height = "180px";
+//图片异常的捕捉，防止用户修改后缀来伪造图片
+try{
+localImagId.style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale)";
+localImagId.filters.item("DXImageTransform.Microsoft.AlphaImageLoader").src = imgSrc;
+}
+catch(e)
+{
+alert("您上传的图片格式不正确，请重新选择!");
+return false;
+}
+imgObjPreview.style.display = 'none';
+document.selection.empty();
+}
+return true;
+}
+
+
+
+</script>
+
+
+
+
+
+

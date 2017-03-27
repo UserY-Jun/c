@@ -1,0 +1,117 @@
+ <!DOCTYPE html>
+ <html>
+	 <head>
+		<link rel=”icon” href="__PUBLIC__/home/img/favicon.ico" mce_href="__PUBLIC__/home/img/favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="__PUBLIC__/home/img/favicon.ico" mce_href="__PUBLIC__/home/img/favicon.ico" type="image/x-icon">
+		<title>称重系统</title>
+		<script src="__PUBLIC__/home/jquery.js"></script>
+		<script src="__PUBLIC__/home/style.css"></script>
+		  <style type="text/css">
+		  	body{
+		        padding-top: 100px;
+		        background-color:#d9e9f9;
+		    }
+		    .td_1{
+		    	height:75px;
+		    	line-height:50px; 
+		    	font-size:45px; 
+		    	font-family: '黑体', '宋体'; 
+		    	color: #369; 
+		    	text-align: right; 
+		    }
+		    .td_2{
+		    	padding:5px 30px; 
+		    	line-height:50px; 
+		    	font-size:40px; 
+		    	font-family: '黑体', '宋体'; 
+		    	color:#369; 
+		    	text-align: left;
+		    }
+		  </style>
+		  <script type="text/javascript">
+		  window.onload= function(){
+		  	document.getElementById("record").focus();
+		  }
+		  </script>
+	 </head>
+	 <body rel="index" scroll="no">
+	 <center>
+		<form action="" method="post">
+		    <div class="div_style" style="border:#F9F9F9 20px solid; width:800px;background:#FFF;
+		    border-radius:5px;">
+		         <table width="100%" border="0" align="center" cellpadding="2" cellspacing="2" bordercolor="#FFFFFF" style="border-collapse: collapse;">
+		            
+		                  <tbody>
+		               <tr>
+		                    <td height="70" colspan="2" align="center" bgcolor="#b9dbff" class="td_1" style="text-align: center;">称重操作台
+		                    </td>
+		              </tr>
+		                  <tr>
+		                    <td width="35%" bgcolor="#d4ddea" class="td_1">操作员工：
+		                    </td>
+			                <td bgcolor="#ebf2fd" class="td_2">
+			                	{$username}              
+			                    <input type="hidden" name="username" id="username" value="{$username}">
+			                    <input type="hidden" name="uid" id="uid" value="{$uid}">
+			                    
+		                    </td>
+		              </tr>
+		              <tr>
+		                <td bgcolor="#d4ddea" class="td_1">操作方式：
+		                </td>
+		                <td bgcolor="#ebf2fd" class="td_2">
+							<switch name="acttype" >
+							<case value="1000.00001"><font color="blue">退出系统</font></case>
+							<case value="1000.00011"><font color="blue">返回首页</font></case>
+							<case value="1000.00002"><font color="blue">质检台</font></case>
+							<case value="1000.00003"><font color="red">订单缺货</font></case>
+							<case value="1000.00005"><font color="blue">查看当日统计</font></case>
+							<case value="1000.00006"><font color="blue">查看当日记录</font></case>
+							<case value="1000.00007"><font color="red">删除记录</font></case>
+							<case value="1000.00008"><font color="blue">增加记录</font></case>
+							<case value="1000.00009"><font color="blue">更新记录</font></case>
+							</switch>
+							<input type="hidden" name="acttype" id="acttype" value="{$acttype}">
+		                </td>
+		              </tr>
+		              <tr>
+		                <td bgcolor="#d4ddea" class="td_1">包裹重量：
+		                </td>
+		                    <td bgcolor="#ebf2fd" class="td_2">
+		                   		{$weight}&nbsp;Kg
+							<input type="hidden" name="weight" id="Weight" value="{$weight}">
+								
+		                	</td>
+		              </tr>
+		              <tr>
+		                <td bgcolor="#d4ddea" class="td_1">物流校验：
+		                </td>
+		                <td bgcolor="#ebf2fd" class="td_2">{$logistics_company}
+		                    <input type="hidden" name="re_invoiceno" id="re_invoiceno" value="{$re_invoiceno}">
+		                    <input type="hidden" name="logistics_company" id="logistics_company" value="{$logistics_company}">
+		                </td>
+		              </tr>
+		              <tr>
+		                <td bgcolor="#d4ddea" class="td_1">数据录入：
+		                </td>
+		                <td bgcolor="#ebf2fd" class="td_2">
+		                	<input 
+		                	name="record" type="text" class="input" id="record" style="font-size:36px; width:380px; height:45px; line-height:40px; color:#036; padding:0 5px; vertical-align:middle;" autocomplete="off" disableautocomplete="" onblur="javascript:document.getElementById('record').focus();" 
+		                	onchange="javascript:document.getElementById('record').focus();">
+			                 <span class="Tooltip" title="以上所有信息均从数据录入框获得数据信息<br>包裹重量的计重单位必须为KG，其它单位无法正确结算物流费用<br>包裹重量支持范围为0-999KG，小数点后保留3位有效数字<br>操作方式、操作员工、包裹重量，这三项录入数据不分先后顺序<br>如果以上三项信息有效，最后录入物流单号则自动保存称重信息<br>如果操作方式、操作员工、包裹重量这三项中有一项无效或为空的话<br>即使录入物流单号，也不会保存称重信息">
+			                 <img src="__PUBLIC__/home/img/help.png" width="25" style="vertical-align:middle;">
+			                </span>
+		                </td>
+		              </tr>
+		              <tr>
+		                <td height="70" colspan="2" align="center" bgcolor="#cfecfe" >               
+		                  <input type="submit" name="submit" value=" 确 定 " class="go-wenbenkuang Tooltip" title="如果扫描枪不支持回车功能<br>则录入数据以后需要点确定按钮来提交数据" style="PADDING:5px 10px; line-height:32px; font-size:30px; font-family: '黑体', '宋体'; width:400px;color:#369;">
+		                 </td>
+		              </tr>     
+		     </tbody></table>
+		</div>
+		 
+		</form>
+	</center>
+	</body>
+</html>

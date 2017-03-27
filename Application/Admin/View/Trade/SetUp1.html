@@ -1,0 +1,443 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <link rel="shortcut icon" type="image/x-icon" href="../skin/favicon.ico">
+  
+  <link href="../skin/default/default.css" rel="stylesheet" type="text/css">  -
+<script type="text/javascript" src="../js/jquery-1.11.1.js" charset="utf-8"></script>
+<script type="text/javascript" src="../js/dialog-plus-min.js" charset="utf-8"></script>
+<script type="text/javascript" src="../js/main.js" charset="utf-8"></script>
+<script type="text/javascript" src="../js/setup.js" charset="utf-8"></script>
+<script type="text/javascript" src="../js/iColor-min.js" charset="utf-8"></script>
+<script type="text/javascript" src="../js/LodopFuncs.js" charset="utf-8"></script>
+</head>
+    
+    <body rel="index"><object id="LODOP_OB" classid="clsid:2105C259-1E0C-4534-8141-A753534CB4CA" width="0" height="0">
+<embed id="LODOP_EM" type="application/x-print-lodop" width="0" height="0">
+</object>
+<link href="../skin/dialog/ui-dialog.css" rel="stylesheet">
+  
+<title>基本设置</title>
+
+<style type="text/css">
+	.sortnamecss { width:60px; height:25px;}
+	.employee_menu		{ float:left; width:120px; height:40px; line-height:40px;border-right:#E1E1E1 1px solid; text-align:center;  }
+	.employee_menu_type	{ background: #F9F9F9;}
+	.employee_menu_curr	{ background: #F90;}
+	.div_style {  
+		position:absolute; 
+		left:50%; 
+		/*top:50%;*/ 
+		margin-left:-250px; 
+		margin-top:100px; 
+	} 
+</style>
+
+
+
+
+
+
+
+
+
+
+<script language="javascript" type="text/javascript"> 
+
+
+var LODOP; //声明为全局变量 
+
+$(function() {
+	CreatePrinterList();
+	CreatePrinterList_Inv();
+	CreatePrinterList_Ord();
+	CreatePrinterList_Rec();
+	
+	CreatePagSizeList(); 
+	
+	CreatePagSizeList_Inv(); 
+	
+	CreatePagSizeList_Ord(); 
+	
+	});  
+
+
+//说明书打印设置
+function clearPageListChild(){
+	   var PagSizeList =document.getElementById('strPageName'); 
+	   while(PagSizeList.childNodes.length&gt;0){
+  		   var children = PagSizeList.childNodes;	
+	  		 for(i=0;i&lt;children.length;i++){		
+			PagSizeList.removeChild(children[i]);	
+	  	  };	   
+	   };	   
+	}
+
+function CreatePagSizeList(){
+	   LODOP=getLodop(); 
+	   clearPageListChild();
+	   var strPageSizeList=LODOP.GET_PAGESIZES_LIST(-1,"\n");
+	   var strPageSizeName='A5';
+	   var Options=new Array(); 
+ 	   Options=strPageSizeList.split("\n");       
+	   for (i in Options)    
+	   {    
+	     var option=document.createElement('option');   
+		 option.innerHTML=Options[i];
+		 option.value=Options[i];
+		 if (strPageSizeName==Options[i]){option.selected="selected";};
+   		 document.getElementById('strPageName').appendChild(option);
+	   }  
+	}	
+
+function CreatePrinterList(){
+	    if (document.getElementById('strPrinterName').innerHTML!="") return;
+		LODOP=getLodop(); 
+		var iPrinterCount=LODOP.GET_PRINTER_COUNT();
+		var PrintName='a00Canon MP280 series Printer'
+		for(var i=0;i&lt;iPrinterCount;i++){
+
+   			var option=document.createElement('option');
+   			option.innerHTML=LODOP.GET_PRINTER_NAME(i);
+   			//option.value=i;
+			option.value=LODOP.GET_PRINTER_NAME(i);
+			if (PrintName==LODOP.GET_PRINTER_NAME(i)){option.selected="selected";};
+			document.getElementById('strPrinterName').appendChild(option);
+		};	
+	};
+
+function ShowPageSet(StrVal){
+        	if (StrVal==1) {$('#showPageInput').css("display","");$('#hiddenPageInput').css("display","none");}
+			else{$('#showPageInput').css("display","none");$('#hiddenPageInput').css("display","");};
+		};
+
+
+//收款收据打印设置
+function CreatePrinterList_Rec(){
+	    if (document.getElementById('strPrinterName_Rec').innerHTML!="") return;
+		LODOP=getLodop(); 
+		var iPrinterCount=LODOP.GET_PRINTER_COUNT();
+		var PrintName='a00Canon MP280 series Printer'
+		for(var i=0;i&lt;iPrinterCount;i++){
+
+   			var option=document.createElement('option');
+   			option.innerHTML=LODOP.GET_PRINTER_NAME(i);
+   			//option.value=i;
+			option.value=LODOP.GET_PRINTER_NAME(i);
+			if (PrintName==LODOP.GET_PRINTER_NAME(i)){option.selected="selected";};
+			document.getElementById('strPrinterName_Rec').appendChild(option);
+		};	
+	};
+	
+
+//发货单打印设置
+
+function clearPageListChild_Inv(){
+	   var PagSizeList =document.getElementById('strPageName_Inv'); 
+	   while(PagSizeList.childNodes.length&gt;0){
+  		   var children = PagSizeList.childNodes;	
+	  		 for(i=0;i&lt;children.length;i++){		
+			PagSizeList.removeChild(children[i]);	
+	  	  };	   
+	   };	   
+	}
+
+function CreatePagSizeList_Inv(){
+	   LODOP=getLodop(); 
+	   clearPageListChild_Inv();
+	   var strPageSizeList=LODOP.GET_PAGESIZES_LIST(-1,"\n");
+	   var strPageSizeName='A5';
+	   var Options=new Array(); 
+ 	   Options=strPageSizeList.split("\n");       
+	   for (i in Options)    
+	   {    
+	     var option=document.createElement('option');   
+		 option.innerHTML=Options[i];
+		 option.value=Options[i];
+		 if (strPageSizeName==Options[i]){option.selected="selected";};
+   		 document.getElementById('strPageName_Inv').appendChild(option);
+	   }  
+	}	
+
+function CreatePrinterList_Inv(){
+	    if (document.getElementById('strPrinterName_Inv').innerHTML!="") return;
+		LODOP=getLodop(); 
+		var iPrinterCount=LODOP.GET_PRINTER_COUNT();
+		var PrintName='a00Canon MP280 series Printer'
+		for(var i=0;i&lt;iPrinterCount;i++){
+
+   			var option=document.createElement('option');
+   			option.innerHTML=LODOP.GET_PRINTER_NAME(i);
+   			//option.value=i;
+			option.value=LODOP.GET_PRINTER_NAME(i);
+			if (PrintName==LODOP.GET_PRINTER_NAME(i)){option.selected="selected";};
+			document.getElementById('strPrinterName_Inv').appendChild(option);
+		};	
+	};
+	
+function ShowPageInvSet(StrVal){
+        	if (StrVal==1) {$('#showPageInput_Inv').css("display","");$('#hiddenPageInput_Inv').css("display","none");}
+			else{$('#showPageInput_Inv').css("display","none");$('#hiddenPageInput_Inv').css("display","");};
+		};
+
+
+
+//配货单打印设置
+
+function clearPageListChild_Ord(){
+	   var PagSizeList =document.getElementById('strPageName_Ord'); 
+	   while(PagSizeList.childNodes.length&gt;0){
+  		   var children = PagSizeList.childNodes;	
+	  		 for(i=0;i&lt;children.length;i++){		
+			PagSizeList.removeChild(children[i]);	
+	  	  };	   
+	   };	   
+	}
+
+function CreatePagSizeList_Ord(){
+	   LODOP=getLodop(); 
+	   clearPageListChild_Ord();
+	   var strPageSizeList=LODOP.GET_PAGESIZES_LIST(-1,"\n");
+	   var strPageSizeName='A5';
+	   var Options=new Array(); 
+ 	   Options=strPageSizeList.split("\n");       
+	   for (i in Options)    
+	   {    
+	     var option=document.createElement('option');   
+		 option.innerHTML=Options[i];
+		 option.value=Options[i];
+		 if (strPageSizeName==Options[i]){option.selected="selected";};
+   		 document.getElementById('strPageName_Ord').appendChild(option);
+	   }  
+	}	
+
+function CreatePrinterList_Ord(){
+	    if (document.getElementById('strPrinterName_Ord').innerHTML!="") return;
+		LODOP=getLodop(); 
+		var iPrinterCount=LODOP.GET_PRINTER_COUNT();
+		var PrintName='a00Canon MP280 series Printer'
+		for(var i=0;i&lt;iPrinterCount;i++){
+
+   			var option=document.createElement('option');
+   			option.innerHTML=LODOP.GET_PRINTER_NAME(i);
+   			//option.value=i;
+			option.value=LODOP.GET_PRINTER_NAME(i);
+			if (PrintName==LODOP.GET_PRINTER_NAME(i)){option.selected="selected";};
+			document.getElementById('strPrinterName_Ord').appendChild(option);
+		};	
+	};
+	
+function ShowPageOrdSet(StrVal){
+        	if (StrVal==1) {$('#showPageInput_Ord').css("display","");$('#hiddenPageInput_Ord').css("display","none");}
+			else{$('#showPageInput_Ord').css("display","none");$('#hiddenPageInput_Ord').css("display","");};
+		};
+
+
+</script>
+    <div style="width:1200px; margin:0 auto;">
+	
+
+
+    <div style="width:980px; float:right; text-align:left; padding:0; font-size:14px;">
+		<table width="980" cellspacing="1" cellpadding="1" border="0" bgcolor="#CCCCCC" align="right">
+      <tbody><tr>
+        <td colspan="2" style="PADDING:5px; FONT-SIZE: 14px; line-height:20px; " height="30" bgcolor="#f7f7f7" align="center">操作说明</td>
+  </tr>
+  <tr>
+        <td style="PADDING:10px; FONT-SIZE: 14px; line-height:20px; " width="200" height="60" bgcolor="#FFFFFF" align="right">交易管理默认配置:</td>
+        <td style="PADDING:10px; FONT-SIZE: 14px; line-height:40px; " width="760" bgcolor="#FFFFFF" align="left"><input name="is_Multiple" id="is_Multiple" value="1" checked="" type="checkbox">
+          自动合并订单：<span style="color:#666666;">合并同一买家交易状态为买家已付款的所有订单</span><br>
+          <input name="Trade_waitprint0" id="Trade_waitprint0" value="1" checked="" type="checkbox">
+          发货单未打印：<span style="color:#666666;">显示所有买家已付款且发货单尚未打印的交易记录</span><br>
+          <input name="Trade_waitprint1" id="Trade_waitprint1" value="1" type="checkbox">
+          说明书未打印：<span style="color:#666666;">显示所有买家已付款且说明书尚未打印的交易记录</span><br>
+          <input name="Trade_waitprint2" id="Trade_waitprint2" value="1" checked="" type="checkbox">
+          配货单未打印：<span style="color:#666666;">显示所有买家已付款且配货单尚未打印的交易记录</span><br>
+          <!--input name="Trade_waitprint3" type="checkbox" id="Trade_waitprint3" value=1  />
+          快递单未打印：<span style="color:#666666;">显示所有买家已付款且快递单尚未打印的交易记录</span><br-->
+        </td>
+  </tr>
+  <tr>
+        <td style="PADDING:10px; FONT-SIZE: 14px; line-height:20px; " width="200" height="60" bgcolor="#FFFFFF" align="right">收款收据打印配置:</td>
+        <td style="PADDING:10px; FONT-SIZE: 14px; line-height:40px; " width="760" bgcolor="#FFFFFF" align="left">
+        打印偏移设置：左偏移 <input name="offsetLeft_Rec" id="offsetLeft_Rec" value="0" style="padding:2px;" size="10" class="input" type="text">
+        cm ; 
+        上偏移：<input name="offsetTop_Rec" id="offsetTop_Rec" value="0" style="padding:2px;" size="10" class="input" type="text"> 
+        cm<br>
+        选择打印机：
+        <select name="strPrinterName_Rec" size="1" class="input" id="strPrinterName_Rec"><option value="a00MP280">a00MP280</option><option value="A00Canon MP280 series Printer">A00Canon MP280 series Printer</option></select>
+        </td>
+  </tr>
+      <tr>
+        <td style="PADDING:10px; FONT-SIZE: 14px; line-height:20px; " width="200" height="60" bgcolor="#FFFFFF" align="right">发货单打印配置:</td>
+        <td style="PADDING:10px; FONT-SIZE: 14px; line-height:40px; " width="760" bgcolor="#FFFFFF" align="left">纸张设置：<input name="PagSizeType_Inv" id="PagSizeType_Inv" value="1" onclick="ShowPageInvSet(1);" type="radio">
+        自定义纸张   
+        &nbsp;&nbsp;<input id="PagSizeType_Inv" name="PagSizeType_Inv" value="2" checked="" onclick="ShowPageInvSet(2);CreatePagSizeList_Inv();" type="radio">
+        指定纸张：<select id="strPageName_Inv" name="strPageName_Inv" size="1"><option value="Letter 8.5&quot;x11&quot; 22x28cm">Letter 8.5"x11" 22x28cm</option><option value="Legal 8.5&quot;x14&quot; 22x36cm">Legal 8.5"x14" 22x36cm</option><option value="A5">A5</option><option value="A4">A4</option><option value="B5">B5</option><option value="4&quot;x6&quot; 10x15cm">4"x6" 10x15cm</option><option value="4&quot;x8&quot; 101.6x203.2mm">4"x8" 101.6x203.2mm</option><option value="5&quot;x7&quot; 13x18cm">5"x7" 13x18cm</option><option value="8&quot;x10&quot; 20x25cm">8"x10" 20x25cm</option><option value="L 89x127mm">L 89x127mm</option><option value="2L 127x178mm">2L 127x178mm</option><option value="Hagaki 100x148mm">Hagaki 100x148mm</option><option value="Hagaki 2 200x148mm">Hagaki 2 200x148mm</option><option value="Comm. 信封 #10">Comm. 信封 #10</option><option value="DL 信封">DL 信封</option><option value="Choukei 3 120x235mm">Choukei 3 120x235mm</option><option value="Choukei 4 90x205mm">Choukei 4 90x205mm</option><option value="Youkei 4 105x235mm">Youkei 4 105x235mm</option><option value="Youkei 6 98x190mm">Youkei 6 98x190mm</option><option value="Card 2.17&quot;x3.58&quot; 55x91mm">Card 2.17"x3.58" 55x91mm</option><option value="Wide 4&quot;x7.1&quot; 101.6x180.6mm">Wide 4"x7.1" 101.6x180.6mm</option><option value="Letter+ (比例打印)">Letter+ (比例打印)</option><option value="11&quot;x17&quot; 279.4x431.8mm (比例打印)">11"x17" 279.4x431.8mm (比例打印)</option><option value="13.5&quot;x17&quot; 342.9x431.8mm (比例打印)">13.5"x17" 342.9x431.8mm (比例打印)</option><option value="17&quot;x22&quot; 431.8x558.8mm (比例打印)">17"x22" 431.8x558.8mm (比例打印)</option><option value="A4+ (比例打印)">A4+ (比例打印)</option><option value="A3 (比例打印)">A3 (比例打印)</option><option value="A3+ 13&quot;x19&quot; 33x48cm (比例打印)">A3+ 13"x19" 33x48cm (比例打印)</option><option value="A2 (比例打印)">A2 (比例打印)</option><option value="B4 (比例打印)">B4 (比例打印)</option><option value="B3 (比例打印)">B3 (比例打印)</option><option value="10&quot;x12&quot; 25x30cm (比例打印)">10"x12" 25x30cm (比例打印)</option><option value="14&quot;x17&quot; 36x43cm (比例打印)">14"x17" 36x43cm (比例打印)</option><option value="用户定义...">用户定义...</option></select>
+          <br>
+        <span id="showPageInput_Inv" style="display:none;">
+        纸张大小：宽度 <input name="intPageWidth_Inv" id="intPageWidth_Inv" value="0" style="padding:2px;" size="10" class="input" type="text">
+        cm ; 
+        高度 <input name="intPageHeight_Inv" id="intPageHeight_Inv" value="0" style="padding:2px;" size="10" class="input" type="text"> 
+        cm<br>
+        </span>
+        
+        <span id="hiddenPageInput_Inv" style="display:;">
+        <input name="intPageWidth_Inv" id="intPageWidth_Inv" value="0" type="hidden">
+        <input name="intPageHeight_Inv" id="intPageHeight_Inv" value="0" type="hidden">
+        </span>
+        纸张方向：<input name="intOrient_Inv" id="intOrient_Inv" value="1" type="radio">
+        纵向   
+        &nbsp;&nbsp;<input id="intOrient_Inv" name="intOrient_Inv" value="2" checked="" type="radio">
+        横向<br>
+        打印份数：<input name="intCopies_Inv" id="intCopies_Inv" value="1" style="padding:2px;" size="10" class="input" type="text"> 份<br>
+        打印机偏移设置：左偏移<input name="offsetLeft_Inv" id="offsetLeft_Inv" value="0" style="padding:2px;" size="10" class="input" type="text">
+        cm ; 
+        上偏移：<input name="offsetTop_Inv" id="offsetTop_Inv" value="0" style="padding:2px;" size="10" class="input" type="text"> 
+        cm<br>
+        选择打印机：
+        <select name="strPrinterName_Inv" size="1" class="input" id="strPrinterName_Inv"><option value="a00MP280">a00MP280</option><option value="A00Canon MP280 series Printer">A00Canon MP280 series Printer</option></select><br>
+        发货单纸张默认大小为：24.1cm×13.95cm<br></td>
+  </tr>
+  <tr>
+        <td style="PADDING:10px; FONT-SIZE: 14px; line-height:20px; " width="200" height="60" bgcolor="#FFFFFF" align="right">说明书打印配置:</td>
+        <td style="PADDING:10px; FONT-SIZE: 14px; line-height:40px; " width="760" bgcolor="#FFFFFF" align="left">纸张设置：<input name="PagSizeType" id="PagSizeType" value="1" onclick="ShowPageSet(1);" type="radio">
+        自定义纸张   
+        &nbsp;&nbsp;<input id="PagSizeType" name="PagSizeType" value="2" checked="" onclick="ShowPageSet(2);CreatePagSizeList();" type="radio">
+        指定纸张：<select id="strPageName" name="strPageName" size="1"><option value="Letter 8.5&quot;x11&quot; 22x28cm">Letter 8.5"x11" 22x28cm</option><option value="Legal 8.5&quot;x14&quot; 22x36cm">Legal 8.5"x14" 22x36cm</option><option value="A5">A5</option><option value="A4">A4</option><option value="B5">B5</option><option value="4&quot;x6&quot; 10x15cm">4"x6" 10x15cm</option><option value="4&quot;x8&quot; 101.6x203.2mm">4"x8" 101.6x203.2mm</option><option value="5&quot;x7&quot; 13x18cm">5"x7" 13x18cm</option><option value="8&quot;x10&quot; 20x25cm">8"x10" 20x25cm</option><option value="L 89x127mm">L 89x127mm</option><option value="2L 127x178mm">2L 127x178mm</option><option value="Hagaki 100x148mm">Hagaki 100x148mm</option><option value="Hagaki 2 200x148mm">Hagaki 2 200x148mm</option><option value="Comm. 信封 #10">Comm. 信封 #10</option><option value="DL 信封">DL 信封</option><option value="Choukei 3 120x235mm">Choukei 3 120x235mm</option><option value="Choukei 4 90x205mm">Choukei 4 90x205mm</option><option value="Youkei 4 105x235mm">Youkei 4 105x235mm</option><option value="Youkei 6 98x190mm">Youkei 6 98x190mm</option><option value="Card 2.17&quot;x3.58&quot; 55x91mm">Card 2.17"x3.58" 55x91mm</option><option value="Wide 4&quot;x7.1&quot; 101.6x180.6mm">Wide 4"x7.1" 101.6x180.6mm</option><option value="Letter+ (比例打印)">Letter+ (比例打印)</option><option value="11&quot;x17&quot; 279.4x431.8mm (比例打印)">11"x17" 279.4x431.8mm (比例打印)</option><option value="13.5&quot;x17&quot; 342.9x431.8mm (比例打印)">13.5"x17" 342.9x431.8mm (比例打印)</option><option value="17&quot;x22&quot; 431.8x558.8mm (比例打印)">17"x22" 431.8x558.8mm (比例打印)</option><option value="A4+ (比例打印)">A4+ (比例打印)</option><option value="A3 (比例打印)">A3 (比例打印)</option><option value="A3+ 13&quot;x19&quot; 33x48cm (比例打印)">A3+ 13"x19" 33x48cm (比例打印)</option><option value="A2 (比例打印)">A2 (比例打印)</option><option value="B4 (比例打印)">B4 (比例打印)</option><option value="B3 (比例打印)">B3 (比例打印)</option><option value="10&quot;x12&quot; 25x30cm (比例打印)">10"x12" 25x30cm (比例打印)</option><option value="14&quot;x17&quot; 36x43cm (比例打印)">14"x17" 36x43cm (比例打印)</option><option value="用户定义...">用户定义...</option></select>
+          <br>
+        <span id="showPageInput" style="display:none;">
+        纸张大小：宽度 <input name="intPageWidth" id="intPageWidth" value="0" style="padding:2px;" size="10" class="input" type="text">
+        cm ; 
+        高度 <input name="intPageHeight" id="intPageHeight" value="0" style="padding:2px;" size="10" class="input" type="text"> 
+        cm<br>
+        </span>
+        
+        <span id="hiddenPageInput" style="display:;">
+        <input name="intPageWidth" id="intPageWidth" value="0" type="hidden">
+        <input name="intPageHeight" id="intPageHeight" value="0" type="hidden">
+        </span>
+        纸张方向：<input name="intOrient" id="intOrient" value="1" type="radio">
+        纵向   
+        &nbsp;&nbsp;<input id="intOrient" name="intOrient" value="2" checked="" type="radio">
+        横向<br>
+        打印份数：<input name="intCopies" id="intCopies" value="1" style="padding:2px;" size="10" class="input" type="text"> 份<br>
+        打印偏移设置：左偏移 <input name="offsetLeft" id="offsetLeft" value="0" style="padding:2px;" size="10" class="input" type="text">
+        cm ; 
+        上偏移：<input name="offsetTop" id="offsetTop" value="0" style="padding:2px;" size="10" class="input" type="text"> 
+        cm<br>
+        选择打印机：
+        <select name="strPrinterName" size="1" class="input" id="strPrinterName"><option value="a00MP280">a00MP280</option><option value="A00Canon MP280 series Printer">A00Canon MP280 series Printer</option></select>
+        </td>
+  </tr>
+    <tr>
+        <td style="PADDING:10px; FONT-SIZE: 14px; line-height:20px; " width="200" height="60" bgcolor="#FFFFFF" align="right">配货单打印配置:</td>
+        <td style="PADDING:10px; FONT-SIZE: 14px; line-height:40px; " width="760" bgcolor="#FFFFFF" align="left">纸张设置：<input name="PagSizeType_Ord" id="PagSizeType_Ord" value="1" onclick="ShowPageOrdSet(1);" type="radio">
+        自定义纸张   
+        &nbsp;&nbsp;<input id="PagSizeType_Ord" name="PagSizeType_Ord" value="2" checked="" onclick="ShowPageOrdSet(2);CreatePagSizeList_Ord();" type="radio">
+        指定纸张：<select id="strPageName_Ord" name="strPageName_Ord" size="1"><option value="Letter 8.5&quot;x11&quot; 22x28cm">Letter 8.5"x11" 22x28cm</option><option value="Legal 8.5&quot;x14&quot; 22x36cm">Legal 8.5"x14" 22x36cm</option><option value="A5">A5</option><option value="A4">A4</option><option value="B5">B5</option><option value="4&quot;x6&quot; 10x15cm">4"x6" 10x15cm</option><option value="4&quot;x8&quot; 101.6x203.2mm">4"x8" 101.6x203.2mm</option><option value="5&quot;x7&quot; 13x18cm">5"x7" 13x18cm</option><option value="8&quot;x10&quot; 20x25cm">8"x10" 20x25cm</option><option value="L 89x127mm">L 89x127mm</option><option value="2L 127x178mm">2L 127x178mm</option><option value="Hagaki 100x148mm">Hagaki 100x148mm</option><option value="Hagaki 2 200x148mm">Hagaki 2 200x148mm</option><option value="Comm. 信封 #10">Comm. 信封 #10</option><option value="DL 信封">DL 信封</option><option value="Choukei 3 120x235mm">Choukei 3 120x235mm</option><option value="Choukei 4 90x205mm">Choukei 4 90x205mm</option><option value="Youkei 4 105x235mm">Youkei 4 105x235mm</option><option value="Youkei 6 98x190mm">Youkei 6 98x190mm</option><option value="Card 2.17&quot;x3.58&quot; 55x91mm">Card 2.17"x3.58" 55x91mm</option><option value="Wide 4&quot;x7.1&quot; 101.6x180.6mm">Wide 4"x7.1" 101.6x180.6mm</option><option value="Letter+ (比例打印)">Letter+ (比例打印)</option><option value="11&quot;x17&quot; 279.4x431.8mm (比例打印)">11"x17" 279.4x431.8mm (比例打印)</option><option value="13.5&quot;x17&quot; 342.9x431.8mm (比例打印)">13.5"x17" 342.9x431.8mm (比例打印)</option><option value="17&quot;x22&quot; 431.8x558.8mm (比例打印)">17"x22" 431.8x558.8mm (比例打印)</option><option value="A4+ (比例打印)">A4+ (比例打印)</option><option value="A3 (比例打印)">A3 (比例打印)</option><option value="A3+ 13&quot;x19&quot; 33x48cm (比例打印)">A3+ 13"x19" 33x48cm (比例打印)</option><option value="A2 (比例打印)">A2 (比例打印)</option><option value="B4 (比例打印)">B4 (比例打印)</option><option value="B3 (比例打印)">B3 (比例打印)</option><option value="10&quot;x12&quot; 25x30cm (比例打印)">10"x12" 25x30cm (比例打印)</option><option value="14&quot;x17&quot; 36x43cm (比例打印)">14"x17" 36x43cm (比例打印)</option><option value="用户定义...">用户定义...</option></select>
+          <br>
+        <span id="showPageInput_Ord" style="display:none;">
+        纸张大小：宽度 <input name="intPageWidth_Ord" id="intPageWidth_Ord" value="0" style="padding:2px;" size="10" class="input" type="text">
+        cm ; 
+        高度 <input name="intPageHeight_Ord" id="intPageHeight_Ord" value="0" style="padding:2px;" size="10" class="input" type="text"> 
+        cm<br>
+        </span>
+        
+        <span id="hiddenPageInput_Ord" style="display:;">
+        <input name="intPageWidth_Ord" id="intPageWidth_Ord" value="0" type="hidden">
+        <input name="intPageHeight_Ord" id="intPageHeight_Ord" value="0" type="hidden">
+        </span>
+        纸张方向：<input name="intOrient_Ord" id="intOrient_Ord" value="1" type="radio">
+        纵向   
+        &nbsp;&nbsp;<input id="intOrient_Ord" name="intOrient_Ord" value="2" checked="" type="radio">
+        横向<br>
+        打印份数：<input name="intCopies_Ord" id="intCopies_Ord" value="2" style="padding:2px;" size="10" class="input" type="text"> 份<br>
+        打印机偏移设置：左偏移<input name="offsetLeft_Ord" id="offsetLeft_Ord" value="0" style="padding:2px;" size="10" class="input" type="text">
+        cm ; 
+        上偏移：<input name="offsetTop_Ord" id="offsetTop_Ord" value="0" style="padding:2px;" size="10" class="input" type="text"> 
+        cm<br>
+        选择打印机：
+        <select name="strPrinterName_Ord" size="1" class="input" id="strPrinterName_Ord"><option value="a00MP280">a00MP280</option><option value="A00Canon MP280 series Printer">A00Canon MP280 series Printer</option></select><br>
+        </td>
+  </tr>
+      <tr>
+        <td colspan="2" style="PADDING:8px; FONT-SIZE: 14px;" height="30" bgcolor="#FFFFFF" align="center">
+          <input value="&nbsp;保存设置&nbsp;" class="btn" style="background:#F90; height:30px; font-size:16px;width:180px;" onclick="SaveUsagePrinterSet()" type="button">        </td>
+        </tr>
+</tbody></table>
+	</div>
+ </div>
+
+<div style="clear:both; margin:20px auto 0 auto; padding:0; width:1200px; border-top:#999999 1px dotted;">
+	<div>
+    	<div style="height:40px; line-height:40px; font-size:14px;">版权信息 | 意见反馈 | 页面执行时间：0.01 秒</div>
+    </div>
+</div>
+<div id="iColorPicker" style="display: none; position: absolute;">
+    <table class="pickerTable"><thead><tr><td style="background:#f00" hx="f00"></td>
+                <td style="background:#ff0" hx="ff0"></td><td style="background:#0f0" hx="0f0"></td>
+                <td style="background:#0ff" hx="0ff"></td><td style="background:#00f" hx="00f"></td>
+                <td style="background:#f0f" hx="f0f"></td><td style="background:#fff" hx="fff"></td>
+                <td style="background:#ebebeb" hx="ebebeb"></td><td style="background:#e1e1e1" hx="e1e1e1"></td>
+                <td style="background:#d7d7d7" hx="d7d7d7"></td><td style="background:#ccc" hx="ccc"></td>
+                <td style="background:#c2c2c2" hx="c2c2c2"></td><td style="background:#b7b7b7" hx="b7b7b7"></td>
+                <td style="background:#acacac" hx="acacac"></td><td style="background:#a0a0a0" hx="a0a0a0"></td>
+                <td style="background:#959595" hx="959595"></td></tr>
+            
+            <tr><td style="background:#ee1d24" hx="ee1d24"></td><td style="background:#fff100" hx="fff100"></td>
+                <td style="background:#00a650" hx="00a650"></td><td style="background:#00aeef" hx="00aeef"></td>
+                <td style="background:#2f3192" hx="2f3192"></td><td style="background:#ed008c" hx="ed008c"></td>
+                <td style="background:#898989" hx="898989"></td><td style="background:#7d7d7d" hx="7d7d7d"></td>
+                <td style="background:#707070" hx="707070"></td><td style="background:#626262" hx="626262"></td>
+                <td style="background:#555" hx="555"></td><td style="background:#464646" hx="464646"></td>
+                <td style="background:#363636" hx="363636"></td><td style="background:#262626" hx="262626"></td>
+                <td style="background:#111" hx="111"></td><td style="background:#000" hx="000"></td></tr>
+            <tr><td style="background:#f7977a" hx="f7977a"></td><td style="background:#fbad82" hx="fbad82"></td>
+                <td style="background:#fdc68c" hx="fdc68c"></td><td style="background:#fff799" hx="fff799"></td>
+                <td style="background:#c6df9c" hx="c6df9c"></td><td style="background:#a4d49d" hx="a4d49d"></td>
+                <td style="background:#81ca9d" hx="81ca9d"></td><td style="background:#7bcdc9" hx="7bcdc9"></td>
+                <td style="background:#6ccff7" hx="6ccff7"></td><td style="background:#7ca6d8" hx="7ca6d8"></td>
+                <td style="background:#8293ca" hx="8293ca"></td><td style="background:#8881be" hx="8881be"></td>
+                <td style="background:#a286bd" hx="a286bd"></td><td style="background:#bc8cbf" hx="bc8cbf"></td>
+                <td style="background:#f49bc1" hx="f49bc1"></td><td style="background:#f5999d" hx="f5999d"></td>
+            </tr><tr><td style="background:#f16c4d" hx="f16c4d"></td><td style="background:#f68e54" hx="f68e54"></td>
+                <td style="background:#fbaf5a" hx="fbaf5a"></td><td style="background:#fff467" hx="fff467"></td>
+                <td style="background:#acd372" hx="acd372"></td><td style="background:#7dc473" hx="7dc473"></td>
+                <td style="background:#39b778" hx="39b778"></td><td style="background:#16bcb4" hx="16bcb4"></td>
+                <td style="background:#00bff3" hx="00bff3"></td><td style="background:#438ccb" hx="438ccb"></td>
+                <td style="background:#5573b7" hx="5573b7"></td><td style="background:#5e5ca7" hx="5e5ca7"></td>
+                <td style="background:#855fa8" hx="855fa8"></td><td style="background:#a763a9" hx="a763a9"></td>
+                <td style="background:#ef6ea8" hx="ef6ea8"></td><td style="background:#f16d7e" hx="f16d7e"></td>
+            </tr><tr><td style="background:#ee1d24" hx="ee1d24"></td><td style="background:#f16522" hx="f16522"></td>
+                <td style="background:#f7941d" hx="f7941d"></td><td style="background:#fff100" hx="fff100"></td>
+                <td style="background:#8fc63d" hx="8fc63d"></td><td style="background:#37b44a" hx="37b44a"></td>
+                <td style="background:#00a650" hx="00a650"></td><td style="background:#00a99e" hx="00a99e"></td>
+                <td style="background:#00aeef" hx="00aeef"></td><td style="background:#0072bc" hx="0072bc"></td>
+                <td style="background:#0054a5" hx="0054a5"></td><td style="background:#2f3192" hx="2f3192"></td>
+                <td style="background:#652c91" hx="652c91"></td><td style="background:#91278f" hx="91278f"></td>
+                <td style="background:#ed008c" hx="ed008c"></td><td style="background:#ee105a" hx="ee105a"></td>
+            </tr>
+            <tr><td style="background:#9d0a0f" hx="9d0a0f"></td><td style="background:#a1410d" hx="a1410d"></td>
+                <td style="background:#a36209" hx="a36209"></td><td style="background:#aba000" hx="aba000"></td>
+                <td style="background:#588528" hx="588528"></td><td style="background:#197b30" hx="197b30"></td>
+                <td style="background:#007236" hx="007236"></td><td style="background:#00736a" hx="00736a"></td>
+                <td style="background:#0076a4" hx="0076a4"></td><td style="background:#004a80" hx="004a80"></td>
+                <td style="background:#003370" hx="003370"></td><td style="background:#1d1363" hx="1d1363"></td>
+                <td style="background:#450e61" hx="450e61"></td><td style="background:#62055f" hx="62055f"></td>
+                <td style="background:#9e005c" hx="9e005c"></td><td style="background:#9d0039" hx="9d0039"></td>
+            </tr><tr><td style="background:#790000" hx="790000"></td><td style="background:#7b3000" hx="7b3000"></td>
+                <td style="background:#7c4900" hx="7c4900"></td><td style="background:#827a00" hx="827a00"></td>
+                <td style="background:#3e6617" hx="3e6617"></td><td style="background:#045f20" hx="045f20"></td>
+                <td style="background:#005824" hx="005824"></td><td style="background:#005951" hx="005951"></td>
+                <td style="background:#005b7e" hx="005b7e"></td><td style="background:#003562" hx="003562"></td>
+                <td style="background:#002056" hx="002056"></td><td style="background:#0c004b" hx="0c004b"></td>
+                <td style="background:#30004a" hx="30004a"></td><td style="background:#4b0048" hx="4b0048"></td>
+                <td style="background:#7a0045" hx="7a0045"></td><td style="background:#7a0026" hx="7a0026"></td>
+            </tr></thead><tbody><tr><td colspan="16" id="colorPreview"></td></tr></tbody>
+    </table>
+</div>
+    </body>
+    <object style="position:absolute;left:0px;top:-100px;width:0px;height:0px;" type="application/x-print-lodop" width="0" height="0">
+        
+    </object></html>

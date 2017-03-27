@@ -1,0 +1,365 @@
+[ 2017-03-12T23:32:04+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-12T23:32:04+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-12T23:32:04+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-12T23:32:04+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-12T23:32:04+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-12T23:32:04+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-12T23:32:10+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:32:13+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:32:16+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:32:56+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0078s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0146s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 116 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1489332776','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0137s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 3 AND `day` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_clock` (`user_id`,`year`,`month`,`day`,`remark`,`status`) VALUES ('6','2017','3','12','','1') [ RunTime:0.0029s ]
+
+[ 2017-03-12T23:32:57+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:33:14+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0146s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 116 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1489332794','2','浏览页面') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0137s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 7 AND `year` = 2017 AND `month` = 3 AND `day` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `cms_clock` (`user_id`,`year`,`month`,`day`,`remark`,`status`) VALUES ('7','2017','3','8','','6') [ RunTime:0.0029s ]
+
+[ 2017-03-12T23:33:15+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:33:27+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0020s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 116 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1489332807','2','浏览页面') [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0146s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 2 AND `year` = 2017 AND `month` = 3 AND `day` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_clock` (`user_id`,`year`,`month`,`day`,`remark`,`status`) VALUES ('2','2017','3','10','','12') [ RunTime:0.0020s ]
+
+[ 2017-03-12T23:33:29+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:33:50+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:34:04+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:34:07+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:34:21+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:34:24+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:34:34+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/RecentDays/7/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:34:42+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/RecentDays/7/OrderStateID/0/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:34:50+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/RecentDays/7/OrderStateID/0/p/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:34:58+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/RecentDays/7/OrderStateID/0/p/3/OrderStateID/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:35:06+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/RecentDays/7/OrderStateID/0/p/3/OrderStateID/3/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:35:14+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/RecentDays/7/OrderStateID/0/OrderStateID/3/OrderStateID/0/p/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:36:07+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/12
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:36:13+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/12/OrderStateID/4
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:36:17+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/12/OrderStateID/4/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:36:26+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/12/OrderStateID/4/OrderStateID/0/RecentDays/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:36:30+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/keywords/12/OrderStateID/4/OrderStateID/0/RecentDays/7/RecentDays/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:36:37+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:36:52+08:00 ] 127.0.0.1 /index.php/Admin/trade/editmerger/stype/0/tids/,3242640888910481/mytime/%E4%B8%8B%E5%8D%8811:36:51
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0059s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 116 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/editmerger/stype/0/tids/,3242640888910481/mytime/%E4%B8%8B%E5%8D%8811:36:51','1489333012','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0078s ]
+SQL: SELECT `tid` FROM `cms_orders` WHERE `tid_s` = '3242640888910481'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid` = '3242640888910481' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `tid_s`='3242640888910481',`whether_merge`='0' WHERE `tid` = '3242640888910481' [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-12T23:36:54+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:38:03+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/3242640888910481
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0049s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 116 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/3242640888910481','1489333083','2','浏览页面') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '3242640888910481'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0059s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('3242640888910481')  [ RunTime:0.0088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-12T23:38:06+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2610557183438430
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0059s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 116 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2610557183438430','1489333086','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '2610557183438430'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2610557183438430')  [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-12T23:38:13+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:38:25+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:38:36+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:38:47+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/3243009513451858
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0039s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0059s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 116 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/3243009513451858','1489333127','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '3243009513451858'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('3243009513451858','3243003715591858')  [ RunTime:0.0039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-12T23:38:53+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/3242490298837484
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0059s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 116 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/3242490298837484','1489333133','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 12 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '3242490298837484'  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0059s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('3242490298837484','3242435695547484')  [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-12T23:39:02+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/2/OrderStateID/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:39:08+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/2/OrderStateID/2/OrderStateID/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:39:13+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-12T23:39:21+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+WARN: 测试日志信息，这是警告级别
+

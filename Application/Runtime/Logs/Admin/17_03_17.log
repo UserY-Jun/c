@@ -1,0 +1,432 @@
+[ 2017-03-17T00:07:48+08:00 ] 127.0.0.1 /index.php/admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T00:07:48+08:00 ] 127.0.0.1 /index.php/admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:07:48+08:00 ] 127.0.0.1 /index.php/admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:07:48+08:00 ] 127.0.0.1 /index.php/admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:15:40+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T00:15:40+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:15:40+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:15:40+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:15:40+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:15:49+08:00 ] 192.168.0.101 /index.php/Admin/login/login.html
+ERR: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'ip' at row 4
+
+[ 2017-03-17T00:26:11+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:26:11+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:26:11+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:26:11+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T00:26:11+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:26:11+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:26:18+08:00 ] 192.168.0.101 /index.php/Admin/login/login.html
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'ip' at row 4
+
+[ 2017-03-17T00:26:52+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T00:26:52+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:26:52+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:26:52+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:26:52+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:43:57+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T00:43:57+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:43:57+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:43:57+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:43:57+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:44:06+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:44:06+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:44:06+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:44:06+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T00:44:06+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:44:06+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:46:34+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:46:34+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T00:46:34+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:46:34+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:46:34+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:46:34+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:48:10+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T00:48:10+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:48:10+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:48:10+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:48:10+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:48:10+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:52:14+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:52:14+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:52:14+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T00:52:14+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:56:55+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T00:56:55+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:56:55+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:56:55+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:56:55+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:56:58+08:00 ] 192.168.0.101 /index.php/Admin/login/login.html
+ERR: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'ip' at row 1
+
+[ 2017-03-17T00:58:28+08:00 ] 192.168.0.101 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T00:58:28+08:00 ] 192.168.0.101 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:58:28+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:58:28+08:00 ] 192.168.0.101 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:58:28+08:00 ] 192.168.0.101 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T00:58:32+08:00 ] 192.168.0.101 /index.php/Admin/login/login.html
+ERR: SQLSTATE[22003]: Numeric value out of range: 1264 Out of range value for column 'ip' at row 1
+
+[ 2017-03-17T08:17:12+08:00 ] 192.168.0.128 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T08:17:12+08:00 ] 192.168.0.128 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:17:12+08:00 ] 192.168.0.128 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:17:12+08:00 ] 192.168.0.128 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:17:12+08:00 ] 192.168.0.128 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:17:12+08:00 ] 192.168.0.128 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:18:42+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T08:18:42+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:18:42+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:18:42+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:18:42+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:23:24+08:00 ] 192.168.0.128 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T08:23:24+08:00 ] 192.168.0.128 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:23:24+08:00 ] 192.168.0.128 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:23:24+08:00 ] 192.168.0.128 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:23:24+08:00 ] 192.168.0.128 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:23:24+08:00 ] 192.168.0.128 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:45:17+08:00 ] 192.168.0.128 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T08:45:17+08:00 ] 192.168.0.128 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:45:17+08:00 ] 192.168.0.128 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T08:45:17+08:00 ] 192.168.0.128 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T10:12:03+08:00 ] 192.168.0.100 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T10:12:03+08:00 ] 192.168.0.100 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T10:12:03+08:00 ] 192.168.0.100 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T10:12:03+08:00 ] 192.168.0.100 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T10:12:03+08:00 ] 192.168.0.100 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T10:13:21+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T10:13:21+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T10:13:21+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T10:13:21+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T10:21:02+08:00 ] 192.168.0.100 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T10:21:02+08:00 ] 192.168.0.100 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T10:21:02+08:00 ] 192.168.0.100 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T10:21:02+08:00 ] 192.168.0.100 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:12+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T11:05:12+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:12+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:12+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:12+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:12+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:21+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:21+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T11:05:21+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:21+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:21+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:26+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T11:05:26+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:26+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:26+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:26+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:26+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:35+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T11:05:35+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:35+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:35+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:35+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T11:05:35+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T15:52:25+08:00 ] 127.0.0.1 /index.php/admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T15:52:25+08:00 ] 127.0.0.1 /index.php/admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T15:52:25+08:00 ] 127.0.0.1 /index.php/admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T15:52:25+08:00 ] 127.0.0.1 /index.php/admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T15:52:25+08:00 ] 127.0.0.1 /index.php/admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T15:52:25+08:00 ] 127.0.0.1 /index.php/admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:20+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T16:52:20+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:20+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:20+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:26+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:26+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:26+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T16:52:26+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:26+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:26+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:45+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T16:52:45+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:45+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:45+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:45+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:45+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:56+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-17T16:52:56+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:56+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-17T16:52:56+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+

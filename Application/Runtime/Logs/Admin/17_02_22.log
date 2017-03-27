@@ -1,0 +1,1732 @@
+[ 2017-02-22T08:38:33+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T08:38:33+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T08:38:33+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-02-22T08:38:33+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T08:38:33+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T08:38:33+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T08:38:38+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2869822286372368
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:38:52+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:38:57+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:39:02+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:39:11+08:00 ] 127.0.0.1 /index.php/Admin/role/roleList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:39:13+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:39:18+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:39:20+08:00 ] 127.0.0.1 /index.php/Admin/Role/rolelist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:40:18+08:00 ] 127.0.0.1 /index.php/Admin/Role/rolelist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:40:27+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:40:32+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:40:34+08:00 ] 127.0.0.1 /index.php/Admin/Role/rolelist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:40:52+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:41:11+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:41:12+08:00 ] 127.0.0.1 /index.php/Admin/Role/rolelist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:48:45+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:52:42+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:52:49+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:52:51+08:00 ] 127.0.0.1 /index.php/Admin/Role/rolelist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:54:47+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:55:03+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:55:23+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:55:59+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:56:00+08:00 ] 127.0.0.1 /index.php/Admin/Role/rolelist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:56:07+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:56:11+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleList.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:56:13+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:56:21+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:56:22+08:00 ] 127.0.0.1 /index.php/Admin/Role/rolelist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:56:39+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:56:42+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:56:44+08:00 ] 127.0.0.1 /index.php/Admin/Role/rolelist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:57:07+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:57:43+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:57:44+08:00 ] 127.0.0.1 /index.php/Admin/Role/rolelist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:58:09+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:58:13+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T08:59:53+08:00 ] 127.0.0.1 /index.php/Admin/Role/rolelist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:03:05+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-02-22T09:03:05+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T09:03:05+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T09:03:05+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T09:03:05+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T09:03:05+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T09:03:08+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:03:13+08:00 ] 127.0.0.1 /index.php/Admin/main/index.asp
+ERR: 无法加载控制器:Main
+
+[ 2017-02-22T09:04:25+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:04:27+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:04:28+08:00 ] 127.0.0.1 /index.php/Admin/index/index
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:04:32+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:05:36+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:05:37+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:05:37+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:05:37+08:00 ] 127.0.0.1 /index.php/Admin/Role/rolelist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:05:37+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleedit/role_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:05:37+08:00 ] 127.0.0.1 /index.php/Admin/Role/rolelist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:05:37+08:00 ] 127.0.0.1 /index.php/Admin/Stock/StockList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:05:37+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:06:53+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:06:57+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:06:59+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:07:04+08:00 ] 127.0.0.1 /index.php/Admin/role/roleList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:07:16+08:00 ] 127.0.0.1 /index.php/Admin/worklog/wllist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:07:23+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:07:24+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2871691314607885
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2871691314607885','1487725644','2','浏览页面') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0127s ]
+SQL: SELECT `tid` FROM `cms_orders` WHERE `tid_s` = '2871691314607885'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2871691314607885')  [ RunTime:0.0000s ]
+
+[ 2017-02-22T09:07:26+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2869822286372368
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2869822286372368','1487725646','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0127s ]
+SQL: SELECT `tid` FROM `cms_orders` WHERE `tid_s` = '2869822286372368'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2869822286372368')  [ RunTime:0.0000s ]
+
+[ 2017-02-22T09:11:27+08:00 ] 127.0.0.1 /index.php/Admin/role/roleList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:11:32+08:00 ] 127.0.0.1 /index.php/Admin/privilege/prilist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:11:33+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/pridit/pri_id/2
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:pridit
+
+[ 2017-02-22T09:29:23+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priadd.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:29:26+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/prilist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:46:54+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priadd.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:52:20+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/prilist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:52:23+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/pridit/pri_id/2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:52:56+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/pridit/pri_id/2
+WARN: 测试日志信息，这是警告级别
+ERR: 模板不存在:./Application/Admin/View/Privilege/pridit.html
+
+[ 2017-02-22T09:53:20+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/pridit/pri_id/2
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:pridit
+
+[ 2017-02-22T09:53:33+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/pridit/pri_id/2
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:pridit
+
+[ 2017-02-22T09:54:07+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/pridit/pri_id/2
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:pridit
+
+[ 2017-02-22T09:54:14+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/pridit/pri_id/2
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:pridit
+
+[ 2017-02-22T09:55:03+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/pridit/pri_id/2
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:pridit
+
+[ 2017-02-22T09:56:08+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/prilist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:56:10+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/pridit/pri_id/28
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:pridit
+
+[ 2017-02-22T09:56:46+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/pridit/pri_id/28
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:pridit
+
+[ 2017-02-22T09:56:49+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/prilist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:56:51+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T09:57:22+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:05:39+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:05:58+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:07:32+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:08:47+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:09:13+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:10:57+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:11:01+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:11:20+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:12:10+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:12:14+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/prilist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:12:15+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:13:35+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/prilist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:13:36+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:14:07+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:14:30+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:14:45+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/16
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:14:50+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:14:52+08:00 ] 127.0.0.1 /index.php/Admin/role/roleList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:14:54+08:00 ] 127.0.0.1 /index.php/Admin/privilege/prilist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:14:56+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:15:14+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/prilist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:15:16+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:15:56+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:16:02+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/prilist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:16:05+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:16:16+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/prilist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:16:18+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/11
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:16:30+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/prilist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:16:34+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/priedit/pri_id/10
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:17:19+08:00 ] 127.0.0.1 /index.php/Admin/Privilege/prilist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:17:27+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:17:39+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2920224014789809
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2920224014789809','1487729859','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0127s ]
+SQL: SELECT `tid` FROM `cms_orders` WHERE `tid_s` = '2920224014789809'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2920224014789809')  [ RunTime:0.0000s ]
+
+[ 2017-02-22T10:17:41+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2871691314607885
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2871691314607885','1487729861','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0117s ]
+SQL: SELECT `tid` FROM `cms_orders` WHERE `tid_s` = '2871691314607885'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2871691314607885')  [ RunTime:0.0000s ]
+
+[ 2017-02-22T10:17:42+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2869822286372368
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2869822286372368','1487729862','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0117s ]
+SQL: SELECT `tid` FROM `cms_orders` WHERE `tid_s` = '2869822286372368'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2869822286372368')  [ RunTime:0.0000s ]
+
+[ 2017-02-22T10:17:43+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2871925914102978
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2871925914102978','1487729863','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0127s ]
+SQL: SELECT `tid` FROM `cms_orders` WHERE `tid_s` = '2871925914102978'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2871925914102978')  [ RunTime:0.0000s ]
+
+[ 2017-02-22T10:17:45+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2871937917378699
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2871937917378699','1487729865','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0127s ]
+SQL: SELECT `tid` FROM `cms_orders` WHERE `tid_s` = '2871937917378699'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2871937917378699')  [ RunTime:0.0000s ]
+
+[ 2017-02-22T10:17:46+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2920421819581904
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2920421819581904','1487729866','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0127s ]
+SQL: SELECT `tid` FROM `cms_orders` WHERE `tid_s` = '2920421819581904'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2920421819581904','2921944428471904')  [ RunTime:0.0000s ]
+
+[ 2017-02-22T10:17:48+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2919934400064015
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2919934400064015','1487729868','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0127s ]
+SQL: SELECT `tid` FROM `cms_orders` WHERE `tid_s` = '2919934400064015'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2919934400064015')  [ RunTime:0.0000s ]
+
+[ 2017-02-22T10:17:49+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2870105884390758
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2870105884390758','1487729869','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0127s ]
+SQL: SELECT `tid` FROM `cms_orders` WHERE `tid_s` = '2870105884390758'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2870105884390758')  [ RunTime:0.0000s ]
+
+[ 2017-02-22T10:17:58+08:00 ] 127.0.0.1 /index.php/Admin/Trade/InvoicesPrintList/tid_s/2920224014789809
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:18:45+08:00 ] 127.0.0.1 /index.php/Admin/Trade/OrderBlankPrintInfoList/tid_s/2920224014789809
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:19:21+08:00 ] 127.0.0.1 /index.php/Admin/worklog/wllist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:19:29+08:00 ] 127.0.0.1 /index.php/Admin/worklog/about.html
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:about
+
+[ 2017-02-22T10:20:59+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2920224014789809
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2920224014789809','1487730058','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0137s ]
+SQL: SELECT `tid` FROM `cms_orders` WHERE `tid_s` = '2920224014789809'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2920224014789809')  [ RunTime:0.0000s ]
+
+[ 2017-02-22T10:20:59+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2920224014789809
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2920224014789809','1487730059','2','浏览页面') [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0117s ]
+SQL: SELECT `tid` FROM `cms_orders` WHERE `tid_s` = '2920224014789809'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2920224014789809')  [ RunTime:0.0000s ]
+
+[ 2017-02-22T10:21:02+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2871691314607885
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2871691314607885','1487730062','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0127s ]
+SQL: SELECT `tid` FROM `cms_orders` WHERE `tid_s` = '2871691314607885'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0117s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2871691314607885')  [ RunTime:0.0000s ]
+
+[ 2017-02-22T10:21:22+08:00 ] 127.0.0.1 /index.php/Admin/role/roleList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:21:24+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleList.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:21:26+08:00 ] 127.0.0.1 /index.php/Admin/Role/roleadd.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:21:29+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:23:51+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:23:54+08:00 ] 127.0.0.1 /index.php/Admin/Admin/AdminEdit/id/1
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:23:57+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:24:19+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:24:28+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:24:33+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:24:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:24:39+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:24:44+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:24:47+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:24:50+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:24:52+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:25:26+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:27:37+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:27:39+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST?keywords=&button=%E6%90%9C%E7%B4%A2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:32:46+08:00 ] 127.0.0.1 /index.php/Admin/trade/'./index.php/Admin/trade/tradeLIST?keywords=&button=%E6%90%9C%E7%B4%A2.%27
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:'
+
+[ 2017-02-22T10:39:10+08:00 ] 127.0.0.1 /index.php/Admin/worklog/index.html
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:index
+
+[ 2017-02-22T10:39:17+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:39:24+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:39:25+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:40:20+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:40:41+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:46:09+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:53:15+08:00 ] 127.0.0.1 /index.php/Admin/Admin/AdminList.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:53:22+08:00 ] 127.0.0.1 /index.php/Admin/role/roleList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:53:32+08:00 ] 127.0.0.1 /index.php/Admin/privilege/prilist.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:53:42+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:53:45+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:53:52+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/index.asp','1487732032','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:index.asp
+
+[ 2017-02-22T10:54:06+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T10:54:12+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/index.asp','1487732052','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:index.asp
+
+[ 2017-02-22T10:58:13+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/index.asp','1487732293','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:index.asp
+
+[ 2017-02-22T11:00:40+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T11:00:44+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0107s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/index.asp','1487732444','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:index.asp
+
+[ 2017-02-22T11:00:55+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T11:01:00+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/index.asp','1487732460','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:index.asp
+
+[ 2017-02-22T11:02:10+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T11:02:15+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T11:02:17+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T11:02:21+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/index.asp','1487732541','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:index.asp
+
+[ 2017-02-22T11:02:47+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T11:02:50+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0166s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/index.asp','1487732570','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:index.asp
+
+[ 2017-02-22T11:04:17+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T11:04:24+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T11:04:26+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T11:05:44+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T11:07:00+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T11:07:06+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/index.asp','1487732826','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:index.asp
+
+[ 2017-02-22T11:09:37+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:37:15+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-02-22T12:37:15+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T12:37:15+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T12:37:15+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T12:37:15+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T12:37:18+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:37:22+08:00 ] 127.0.0.1 /index.php/Admin/Admin/index.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/index.asp','1487738242','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:index.asp
+
+[ 2017-02-22T12:38:56+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:40:04+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:42:28+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:43:07+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:43:58+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:44:22+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:44:56+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:45:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:46:19+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:46:31+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:47:09+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:47:26+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:47:43+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:48:07+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:48:54+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:49:01+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-02-22T12:49:01+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T12:49:01+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T12:49:01+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T12:49:01+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T12:49:04+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:49:06+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:49:08+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:49:08+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:50:29+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:50:29+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:52:12+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:52:13+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:52:47+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:52:47+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:53:01+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:53:02+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:53:16+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:53:16+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:53:22+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487739202','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 9 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `remark`='',`status`='10' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 9 [ RunTime:0.0020s ]
+
+[ 2017-02-22T12:53:23+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:53:23+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:53:37+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487739217','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 9 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `remark`='',`status`='13' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 9 [ RunTime:0.0020s ]
+
+[ 2017-02-22T12:53:38+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:53:39+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:53:45+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487739225','2','浏览页面') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 9 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 9 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `remark`='',`status`='16' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 9 [ RunTime:0.0029s ]
+
+[ 2017-02-22T12:53:46+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:53:47+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:53:56+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487739236','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 9 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `remark`='',`status`='17' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 9 [ RunTime:0.0020s ]
+
+[ 2017-02-22T12:53:57+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:53:58+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:55:24+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0107s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487739324','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 15 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `remark`='',`status`='12' WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 15 [ RunTime:0.0020s ]
+
+[ 2017-02-22T12:55:25+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:55:25+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:56:56+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487739416','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 8 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `remark`='',`status`='12' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 8 [ RunTime:0.0020s ]
+
+[ 2017-02-22T12:56:57+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:56:57+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:58:03+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487739483','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 12 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-02-22T12:58:04+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:58:57+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487739537','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-02-22T12:58:58+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T12:59:07+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487739547','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_clock` (`user_id`,`year`,`month`,`day`,`remark`,`status`) VALUES ('6','2017','2','8','','14') [ RunTime:0.0020s ]
+
+[ 2017-02-22T12:59:09+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T13:30:04+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T13:32:19+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-02-22T13:32:19+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T13:32:19+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T13:32:19+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T13:32:19+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T13:32:22+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T13:32:37+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T13:32:41+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T13:41:23+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T13:41:25+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T13:41:26+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T13:41:29+08:00 ] 127.0.0.1 /index.php/Admin/express/index.asp
+ERR: 无法加载控制器:Express
+
+[ 2017-02-22T13:53:31+08:00 ] 127.0.0.1 /index.php/Admin/role/roleList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:00:12+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:00:14+08:00 ] 127.0.0.1 /index.php/Admin/express/index.asp
+ERR: 无法加载控制器:Express
+
+[ 2017-02-22T14:00:17+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:00:20+08:00 ] 127.0.0.1 /index.php/Admin/trade/index.asp
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/index.asp','1487743220','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 非法操作:index.asp
+
+[ 2017-02-22T14:05:33+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:05:44+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:05:59+08:00 ] 127.0.0.1 /index.php/Admin/Products/ProductsEdit/id/4
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:06:35+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:06:38+08:00 ] 127.0.0.1 /index.php/Admin/trade/'./index.php/Admin/trade/tradeLIST.'
+WARN: 测试日志信息，这是警告级别
+ERR: 非法操作:'
+
+[ 2017-02-22T14:06:47+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST?keywords=&button=%E6%90%9C%E7%B4%A2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:45:13+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-02-22T14:45:14+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T14:45:14+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T14:45:14+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T14:45:14+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T14:45:14+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T14:45:17+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST?keywords=&button=%E6%90%9C%E7%B4%A2
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:45:22+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/%E6%90%9C%E7%B4%A2/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:45:29+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/%E6%90%9C%E7%B4%A2/p/2.2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:45:39+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/%E6%90%9C%E7%B4%A2/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:45:46+08:00 ] 127.0.0.1 /index.php/Admin/role/roleList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:45:49+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:45:51+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:45:57+08:00 ] 127.0.0.1 /index.php/Admin/Products/productsList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:46:08+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:46:10+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:54:13+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:54:17+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487746457','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `remark`='',`status`='10' WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 [ RunTime:0.0020s ]
+
+[ 2017-02-22T14:54:18+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:55:06+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0107s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487746506','2','浏览页面') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0098s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `cms_clock` (`user_id`,`year`,`month`,`day`,`remark`,`status`) VALUES ('6','2017','2','9','','11') [ RunTime:0.0020s ]
+
+[ 2017-02-22T14:55:07+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:55:33+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487746533','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `remark`='',`status`='12' WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 [ RunTime:0.0020s ]
+
+[ 2017-02-22T14:55:34+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:56:50+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487746610','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `remark`='',`status`='14' WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 [ RunTime:0.0020s ]
+
+[ 2017-02-22T14:56:51+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T14:56:56+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0117s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487746616','2','浏览页面') [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `remark`='',`status`='14' WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 [ RunTime:0.0020s ]
+
+[ 2017-02-22T14:56:58+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T15:10:34+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T15:10:41+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0107s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0107s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487747441','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `remark`='',`status`='4' WHERE `user_id` = 6 AND `year` = 2017 AND `month` = 2 AND `day` = 8 [ RunTime:0.0020s ]
+
+[ 2017-02-22T15:10:42+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T15:10:48+08:00 ] 127.0.0.1 /index.php/Admin/Admin/EditClock
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 110 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/Admin/EditClock','1487747448','2','浏览页面') [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0117s ]
+SQL: SELECT `id` FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 9 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_clock` SET `remark`='',`status`='9' WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 2 AND `day` = 9 [ RunTime:0.0029s ]
+
+[ 2017-02-22T15:10:49+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T15:13:08+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T15:22:57+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T15:26:40+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T15:55:37+08:00 ] 127.0.0.1 /index.php/Admin/worklog/wllist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T16:21:07+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T16:21:12+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T16:21:12+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-02-22T16:21:12+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T16:21:12+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T16:21:12+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T16:21:12+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T16:21:15+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T16:21:17+08:00 ] 127.0.0.1 /index.php/Admin/worklog/wllist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T17:03:21+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-02-22T17:03:21+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T17:03:21+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T17:03:21+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T17:03:21+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T17:03:21+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T17:03:24+08:00 ] 127.0.0.1 /index.php/Admin/worklog/wllist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T17:03:29+08:00 ] 127.0.0.1 /index.php/Admin/Products/ProductsList.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T17:03:56+08:00 ] 127.0.0.1 /index.php/Admin/Products/ProductsAdd.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T17:04:09+08:00 ] 127.0.0.1 /index.php/Admin/Admin/Adminlist
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T17:04:12+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T17:04:13+08:00 ] 127.0.0.1 /index.php/Admin/Admin/clock.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T17:50:09+08:00 ] 127.0.0.1 /index.php/admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-02-22T17:50:09+08:00 ] 127.0.0.1 /index.php/admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T17:50:09+08:00 ] 127.0.0.1 /index.php/admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T17:50:09+08:00 ] 127.0.0.1 /index.php/admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-02-22T17:50:12+08:00 ] 127.0.0.1 /index.php/Admin/index/index.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-02-22T17:50:35+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+

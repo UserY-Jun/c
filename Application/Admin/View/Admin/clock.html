@@ -1,0 +1,339 @@
+<layout name='main' />
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/jquery.hDialog.js"></script>
+	<link rel="stylesheet" href="__PUBLIC__/css/common.css"/><!-- 基本样式 -->
+	<link rel="stylesheet" href="__PUBLIC__/css/animate.min.css"/> <!-- 动画效果 -->
+        <script type="text/javascript" src="__PUBLIC__/js/clock.js" charset="utf-8"></script>
+<style type="text/css">
+	.sortnamecss { width:60px; height:25px;}
+	.employee_menu		{ float:left; width:120px; height:40px; line-height:40px;border-right:#E1E1E1 1px solid; text-align:center;  }
+	.employee_menu_type	{ background: #F9F9F9;}
+	.employee_menu_curr	{ background: #F90;}
+	.div_style {  
+		position:absolute; 
+		left:50%; 
+		/*top:50%;*/ 
+		margin-left:-250px; 
+		margin-top:100px; 
+	} 
+</style>
+
+<div style="width:1200px; margin:0 auto;">
+	
+<div style="width:200px; border:#DDDDDD 1px solid; float:left; background:#F7F7F7; font-size:14px; line-height:30px;">
+<a href="__MODULE__/Admin/AdminList">所有用户</a><br><a href="__MODULE__/Admin/clock">考勤记录</a><br><a href="__MODULE__/Admin/logbook">操作日志</a>
+</div>
+
+    <div style="width:978px; border:#DDDDDD 1px solid; background:#f9f9f9; float:right; text-align:left; padding:10px 0; font-size:14px;">
+    <span style="padding:10px 0px 10px 10px; color: #333">考勤月份:</span>
+    <!-- 最前面显示6666666 -->
+    <span style='padding:10px; <?php $font=date("Y-m", strtotime("$ThisYM -0 month")); if($font==$CountDate){echo "font-size:17px;"; } ?> '><a href="__MODULE__/Admin/clock/CountDate/<?php echo ($ThisYean.'-'.$ThisMonth); ?>"> <?php echo $ThisYean; ?>-<?php echo $ThisMonth; ?>  </a> </span>&nbsp;&nbsp;
+        <if condition="($bet gt 2)  "> 
+                <span style="padding:10px;"> .... &nbsp;&nbsp;
+                <span style="padding:10px;"   ><a href='__MODULE__/Admin/clock/CountDate/<?php echo date("Y-m", strtotime("$CountDate +1 month"))  ?> '>  <?php echo date("Y-m", strtotime("$CountDate +1 month"))  ?>   </a>&nbsp;&nbsp;
+                    <span style="padding:10px;font-size:17px;"   ><a href="__MODULE__/Admin/clock/CountDate/<?php echo $CountDate  ?>">  <?php echo $CountDate  ?>   </a></span>&nbsp;&nbsp;
+                <span style="padding:10px;"   ><a href='__MODULE__/Admin/clock/CountDate/<?php echo date("Y-m", strtotime("$CountDate -1 month"))  ?> '>  <?php echo date("Y-m", strtotime("$CountDate -1 month"))  ?>   </a>&nbsp;&nbsp;
+                    
+         <else /> 
+             
+         <span style='padding:10px; <?php $font=date("Y-m", strtotime("$ThisYM -1 month")); if($font==$CountDate){echo "font-size:17px;"; } ?> '   ><a href='__MODULE__/Admin/clock/CountDate/<?php echo date("Y-m", strtotime("$ThisYM -1 month"))  ?> '>   <?php $a1=strtotime("$ThisYM -1 month"); if($a1==$CountDate){echo '<b>'.date("Y-m",$a1).'</b>';}else{echo date("Y-m",$a1);}; ?>  
+                                                                                                                                            </a> </span>     &nbsp;&nbsp;
+                 <span style='padding:10px; <?php $font=date("Y-m", strtotime("$ThisYM -2 month")); if($font==$CountDate){echo "font-size:17px;"; } ?> '   ><a href='__MODULE__/Admin/clock/CountDate/<?php echo date("Y-m", strtotime("$ThisYM -2 month"))  ?> '>  <?php echo date("Y-m", strtotime("$ThisYM -2 month"))  ?>   </a> </span> &nbsp;&nbsp;
+                  <span style='padding:10px; <?php $font=date("Y-m", strtotime("$ThisYM -3 month")); if($font==$CountDate){echo "font-size:17px;"; } ?> '   ><a href='__MODULE__/Admin/clock/CountDate/<?php echo date("Y-m", strtotime("$ThisYM -3 month"))  ?> '>  <?php echo date("Y-m", strtotime("$ThisYM -3 month"))  ?>   </a> </span> &nbsp;&nbsp;
+               
+                
+        </if> 
+
+       
+        
+</span>&nbsp;<input name="updatetrades" id="updatetrades" value="打印考勤记录" style="clear:both;width:100px; background: #F90; color:#ffffff; border:none; text-align:center; height:22px;" onclick="PrintIuqn('2016-10-28',0);" type="button">&nbsp;(打印纸张为A4纸)
+    </div>
+    
+    <div style="width:980px; float:right; text-align:left; padding:0; font-size:14px; margin-top:20px;">
+    
+		
+		<table style="padding:0; margin:auto; border-right:0px;" id="recordlist" width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="#E1E1E1" align="center">
+			 <tbody><tr align="center" height="30">
+               <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px; border-right:#E1E1E1 1px solid;" width="7%" bgcolor="#f7f7f7">姓名</td>
+               <?php for($H=1;$H<=$t;$H++): ?>	
+               <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;border-right:#E1E1E1 1px solid;" width="3%" bgcolor="<?php echo $i==$H&&$ThisYM==$CountDate?'#c7c7c7':'#f7f7f7' ?>"><?php echo $H; ?></td>
+                <?php endfor; ?>
+		  </tr>
+          <tr align="center" height="30">
+              
+               <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px; border-right:#E1E1E1 1px solid;" bgcolor="#ffffff"><?php echo $year.'-'.$month; ?></td>
+                <?php for($H=1;$H<=$t;$H++): ?>
+               <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;border-right:#E1E1E1 1px solid;" bgcolor="#ffffff"><?php $tim=$ti+3600*24*($H-1);
+                                                                                                                                                   $hidden=date('w',$tim);  
+                                                                                                                                                   switch($hidden){
+                                                                                                                                                        case 0:
+                                                                                                                                                            echo '<font color="red">日</font>';
+                                                                                                                                                            break;
+                                                                                                                                                        case 6:
+                                                                                                                                                            echo '<font color="red">六</font>';
+                                                                                                                                                            break;
+                                                                                                                                                        case 5:
+                                                                                                                                                            echo '五';
+                                                                                                                                                            break;
+                                                                                                                                                        case 4:    
+                                                                                                                                                            echo '四';
+                                                                                                                                                            break;
+                                                                                                                                                        case 3:    
+                                                                                                                                                            echo '三';
+                                                                                                                                                            break;
+                                                                                                                                                        case 2:
+                                                                                                                                                            echo '二';
+                                                                                                                                                            break;
+                                                                                                                                                        case 1:
+                                                                                                                                                            echo '一';
+                                                                                                                                                            break;
+                                                                                                                                                        default:
+                                                                                                                                                            echo '..';
+                                                                                                                                                            }
+                                                                                                                                                                  ?></td>
+                <?php endfor; ?>
+               
+		  </tr>
+  <?php   foreach($userList as $v=>$k):   ?>	                
+                  
+            <tr style="FONT-SIZE:14px; color:#666666;" class="changecolour" bgcolor="#FFFFFF">      
+
+			
+<td style="line-height:25px;border-right:#E1E1E1 1px solid;" class="" align="center"><?php  echo $k; ?><br><?php $num=substr($v,1); echo $num; ?>    </td>
+
+<?php for($H=1;$H<=$t;$H++): ?>
+
+<td style="border-right:#E1E1E1 1px solid;" class="Tooltip" title='
+
+            <?php  
+            $num=substr($v,0,-6);//获取到用户id
+            
+            $arrOne=array_keys($clockList);  //获取到三维数组的键值
+            foreach($arrOne as $r)          //循环键值  因为键的值等于用户id
+            {
+                 if($r==$num){   
+               
+                     //如果键值和id相等的   有这个数据的  再往下执行
+                     $arrTow=array_keys($clockList[$num]);  //获取到键值的键值  这个是天数，你需要有这个天数  
+                     // var_dump($arrTow);
+                     foreach($arrTow as $e){    //循环天数
+                     
+                        if($e==$H){             //如果数据库里面有这个天数 再往下执行
+                      
+                            if($clockList[$r][$e]["day"]==$e){    //是列表中 当天的数据 则---
+                                echo "最早登入时间：".$clockList[$r][$e][s_time_]."<br>"."最后登出时间：".$clockList[$r][$e][year]."-".$clockList[$r][$e][month]."-".$clockList[$r][$e][day]."&nbsp".$clockList[$r][$e][e_time];
+                            }
+                        }
+                     }   
+                 
+                 }
+            }
+                ?>
+
+        '
+    align="center">   <!-- <span style="cursor:pointer;" onclick="AjaxeditIuqn(1,1,1)">  -->
+        
+        <?php  
+            $num=substr($v,0,-6);//获取到用户id
+                $CountDate=I('get.CountDate');
+                           if(empty($CountDate)){
+                               $CountDate=date('Y-m');
+                            }
+            
+            
+            $arrOne=array_keys($clockList);  //获取到三维数组的键值
+            foreach($arrOne as $r)          //循环键值  因为键的值等于用户id
+            {
+                 if($r==$num){   
+               
+                     //如果键值和id相等的   有这个数据的  再往下执行
+                     $arrTow=array_keys($clockList[$num]);  //获取到键值的键值  这个是天数，你需要有这个天数  
+                     // var_dump($arrTow);
+                      
+                     foreach($arrTow as $e){    //循环天数
+                     
+                        if($e==$H)   //如果数据库里面有这个天数 再往下执行
+                        {          
+                            if($clockList[$r][$e]['day']==$e)  //是列表中 当天的数据 则---
+                            {  
+                                    if($clockList[$r][$e]['status']==1)
+                                    {   
+
+                                       $CountDate= $CountDate.'-'.$H;
+                                       $a=substr($clockList[$r][$e][s_time_],0,10);
+                                        echo "<a href=javascript:; onclick=AjaxeditIuqn(";
+                                        echo "'$CountDate',";
+                                        echo "'$num',";
+                                        echo "'$userList[$v]'";
+                                        echo ") class=zoomInLeft dialog>√</a>";
+                                    }else if($clockList[$r][$e]['status']==2){               
+                                       $CountDate= $CountDate.'-'.$H;
+                                       $a=substr($clockList[$r][$e][s_time_],0,10);
+                                        echo "<a href=javascript:; onclick=AjaxeditIuqn(";
+                                        echo "'$CountDate',";
+                                        echo "'$num',";
+                                        echo "'$userList[$v]'";
+                                        echo ") class=zoomInLeft dialog>√√</a>";                                  
+                                    }else if($clockList[$r][$e]['status']==3){
+                                       $CountDate= $CountDate.'-'.$H;
+                                       $a=substr($clockList[$r][$e][s_time_],0,10);
+                                        echo "<a href=javascript:; onclick=AjaxeditIuqn(";
+                                        echo "'$CountDate',";
+                                        echo "'$num',";
+                                        echo "'$userList[$v]'";
+                                        echo ") class=zoomInLeft dialog>√+✪</a>";       
+                                    }else if($clockList[$r][$e]['status']==4){
+                                       $CountDate= $CountDate.'-'.$H;
+                                       $a=substr($clockList[$r][$e][s_time_],0,10);
+                                        echo "<a href=javascript:; onclick=AjaxeditIuqn(";
+                                        echo "'$CountDate',";
+                                        echo "'$num',";
+                                        echo "'$userList[$v]'";
+                                        echo ") class=zoomInLeft dialog>半</a>";       
+                                    }else if($clockList[$r][$e]['status']==5){
+                                       $CountDate= $CountDate.'-'.$H;
+                                       $a=substr($clockList[$r][$e][s_time_],0,10);
+                                        echo "<a href=javascript:; onclick=AjaxeditIuqn(";
+                                        echo "'$CountDate',";
+                                        echo "'$num',";
+                                        echo "'$userList[$v]'";
+                                        echo ") class=zoomInLeft dialog>—</a>";       
+                                    }else if($clockList[$r][$e]['status']==6){
+                                       $CountDate= $CountDate.'-'.$H;
+                                       $a=substr($clockList[$r][$e][s_time_],0,10);
+                                        echo "<a href=javascript:; onclick=AjaxeditIuqn(";
+                                        echo "'$CountDate',";
+                                        echo "'$num',";
+                                        echo "'$userList[$v]'";
+                                        echo ") class=zoomInLeft dialog>△</a>";       
+                                    }else if($clockList[$r][$e]['status']==7){
+                                       $CountDate= $CountDate.'-'.$H;
+                                       $a=substr($clockList[$r][$e][s_time_],0,10);
+                                        echo "<a href=javascript:; onclick=AjaxeditIuqn(";
+                                        echo "'$CountDate',";
+                                        echo "'$num',";
+                                        echo "'$userList[$v]'";
+                                        echo ") class=zoomInLeft dialog>×</a>";       
+                                    }else if($clockList[$r][$e]['status']==8){
+                                       $CountDate= $CountDate.'-'.$H;
+                                       $a=substr($clockList[$r][$e][s_time_],0,10);
+                                        echo "<a href=javascript:; onclick=AjaxeditIuqn(";
+                                        echo "'$CountDate',";
+                                        echo "'$num',";
+                                        echo "'$userList[$v]'";
+                                        echo ") class=zoomInLeft dialog>✪</a>";       
+                                    }else if($clockList[$r][$e]['status']==9){
+                                       $CountDate= $CountDate.'-'.$H;
+                                       $a=substr($clockList[$r][$e][s_time_],0,10);
+                                        echo "<a href=javascript:; onclick=AjaxeditIuqn(";
+                                        echo "'$CountDate',";
+                                        echo "'$num',";
+                                        echo "'$userList[$v]'";
+                                        echo ") class=zoomInLeft dialog>〇</a>";       
+                                    }else if($clockList[$r][$e]['status']==10){
+                                       $CountDate= $CountDate.'-'.$H;
+                                       $a=substr($clockList[$r][$e][s_time_],0,10);
+                                        echo "<a href=javascript:; onclick=AjaxeditIuqn(";
+                                        echo "'$CountDate',";
+                                        echo "'$num',";
+                                        echo "'$userList[$v]'";
+                                        echo ") class=zoomInLeft dialog>〇</a>";       
+                                    }else if($clockList[$r][$e]['status']==10){
+                                       $CountDate= $CountDate.'-'.$H;
+                                       $a=substr($clockList[$r][$e][s_time_],0,10);
+                                        echo "<a href=javascript:; onclick=AjaxeditIuqn(";
+                                        echo "'$CountDate',";
+                                        echo "'$num',";
+                                        echo "'$userList[$v]'";
+                                        echo ") class=zoomInLeft dialog>休</a>";       
+                                    }else if($clockList[$r][$e]['status']==11){
+                                       $CountDate= $CountDate.'-'.$H;
+                                       $a=substr($clockList[$r][$e][s_time_],0,10);
+                                        echo "<a href=javascript:; onclick=AjaxeditIuqn(";
+                                        echo "'$CountDate',";
+                                        echo "'$num',";
+                                        echo "'$userList[$v]'";
+                                        echo ") class=zoomInLeft dialog>✪+✪</a>";       
+                                    }else if($clockList[$r][$e]['status']==12){
+                                       $CountDate= $CountDate.'-'.$H;
+                                       $a=substr($clockList[$r][$e][s_time_],0,10);
+                                        echo "<a href=javascript:; onclick=AjaxeditIuqn(";
+                                        echo "'$CountDate',";
+                                        echo "'$num',";
+                                        echo "'$userList[$v]'";
+                                        echo ") class=zoomInLeft dialog>空</a>";       
+                                    }else{
+                                       $CountDate= $CountDate.'-'.$H;
+                                        $a=substr($clockList[$r][$e][s_time_],0,10);
+                                        echo "<a href=javascript:; onclick=AjaxeditIuqn(";
+                                        echo "'$CountDate',";
+                                        echo "'$num',";
+                                        echo "'$userList[$v]'";
+                                        echo ") class=zoomInLeft dialog>?</a>"; 
+                                    
+                                    }
+                            }
+                        }
+                        
+                     }   
+                 
+                 }       
+            }
+            
+            
+                ?>
+          <?php
+                    $arrOne=array_keys($clockList);
+                    $num=substr($v,0,-6);//获取到用户id
+                    $arrTow=array_keys($clockList[$num]);
+                    //获取年月  
+     
+                    $CountDate= $CountDate.'-'.$H;
+                    $Count=date('d'); 
+                    $ts=date('Y-m-d');//本月本日数据
+                        if(!in_array($H,$arrTow)){       
+                              echo "<a href=javascript:; onclick=AjaxeditIuqn(";
+                                        echo "'$CountDate',";           //时间
+                                        echo "'$num',";         //用户id
+                                        echo "'$userList[$v]'"; //名字
+                                        echo ") class=zoomInLeft dialog>&nbsp</a>"; 
+                        } 
+             ?> 
+
+                
+                
+                </span></td>
+<?php endfor; ?>
+
+
+</tr>			
+	
+<?php endforeach; ?>
+ 
+
+		</tbody></table>
+        <table style="padding:0; margin:auto;" width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="#FFFFFF" align="center">
+			  <tbody><tr>
+				<td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:18px;" bgcolor="#ffffff" align="left">备注：正常出勤为“√”，出勤半天为“半”，迟到早退为“—”，请假为“△”，旷工为“×”，加班为“✪”，未加班为“〇”，公休为“休”</td>
+		  </tr>
+		</tbody></table>
+		<br>
+		<table style="padding:0; margin:auto;" width="980" cellspacing="1" cellpadding="1" border="0" bgcolor="#E1E1E1" align="center">
+			  <tbody><tr>
+				<td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:18px;" bgcolor="#F9F9F9" align="center"><div style="position:relative;width:250px; float:left; margin:0; padding:0;text-align:left;"><form action="index.asp" method="get" style="margin:0; padding:0;"><input name="action" id="action" value="iuqn" type="hidden"><input name="keywords" class="search_input" id="keywords" value="" style="width:160px" type="text">&nbsp;<input name="button" class="search_btn" id="button" value="搜索" type="submit">
+		  </form></div>
+                               <div class="<?php echo $div_class; ?>" style=''>
+                        <ul>
+                        <?php echo $showPage; ?>
+                        </ul>
+                    </div>    
+                                
+                                
+                                </td>
+		  </tr>
+		</tbody></table><br>
+
+	</div>
+</div>
+
+

@@ -1,0 +1,58 @@
+<layout name='main' />
+
+<div style="width:980px; float:right; text-align:left; padding:0; font-size:14px; margin-top:20px;">
+<form method="post" action="" name="user" onsubmit="">
+    <div class="list-div" id="listDiv">
+        <table style="padding:0; margin:auto;" id="recordlist" width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="#E1E1E1" align="center">
+         
+            <tr align='center'>
+                <th>id</th>
+                <th>岗位列表</th>
+                <th>所拥有权限</th>
+                <th>操作</th>
+            </tr>
+    
+               <tr align='center'>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            
+            
+            
+            
+            <hr/>
+            
+            <?php foreach($rolelist as $rows): ?>
+            <tr align='center'>
+                <td><?php echo $rows['id'] ?></td>
+                <td ><?php echo $rows['role_name'] ?></td>
+                
+                <td ><?php echo $rows['pri_name'] ?></td>
+            
+            
+              <td align="center">
+                    <input type="button" value="修改" onclick="location.href='__URL__/roleedit/role_id/<?php echo $rows[id] ?>'">
+                    <input type="button" value="删除" onclick="location.href='__URL__/roledel/role_id/<?php echo $rows[id]  ?>'"> 
+                </td>
+            </tr>
+            <?php endforeach; ?>
+           
+    
+
+        
+    <!-- 分页开始 -->
+        <table id="page-table" cellspacing="0">
+            <tr>
+                <td width="80%">&nbsp;</td>
+                <td align="center" nowrap="true">
+                   <?php echo $showPage; ?>
+                </td>
+            </tr>
+        </table>
+    <!-- 分页结束 -->
+    </div>
+</form>
+
+</div>

@@ -1,0 +1,78 @@
+<layout name="main"/>
+
+
+<style type="text/css">
+	.sortnamecss { width:60px; height:25px;}
+	.employee_menu		{ float:left; width:120px; height:40px; line-height:40px;border-right:#E1E1E1 1px solid; text-align:center;  }
+	.employee_menu_type	{ background: #F9F9F9;}
+	.employee_menu_curr	{ background: #F90;}
+	.div_style {  
+		position:absolute; 
+		left:50%; 
+		/*top:50%;*/ 
+		margin-left:-250px; 
+		margin-top:100px; 
+	} 
+</style>
+
+
+
+
+
+<div style="width:1200px; margin:0 auto;" >
+	
+
+    <div style="width:980px; float:right; text-align:left; padding:0; font-size:14px; margin-top:20px;">
+		
+		<table style="padding:0; margin:auto;" id="recordlist" width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="#E1E1E1" align="center">
+			 <tbody><tr align="center" height="30">
+               <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="10%" bgcolor="#f7f7f7">类型名称</td>
+
+
+                <td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:25px;" width="17%" bgcolor="#f7f7f7">操作</td>
+		  </tr>
+                         	
+<?php foreach($typelist as $v=>$k): ?>
+<tr style="FONT-SIZE:14px; color:#666666;" class="changecolour" bgcolor="#FFFFFF">
+<td style="height:40px;" class="" align="center">&nbsp;<?php echo $k['type_name'] ?>    &nbsp;</td>
+
+
+    <td class="" valign="middle" align="center">
+        <input name="button_33" class="btn sortnamecss" style="width:75px;" id="button_33" value="属性列表" onclick="location.href='__MODULE__/Attribute/AttributeList/id/<?php echo $k[id] ?>'" type="button">&nbsp;
+        <input name="button_33" class="btn sortnamecss" style="width:50px;" id="button_33" value="删除" onclick="location.href='__MODULE__/Products/TypeDel/id/<?php echo $k[id] ?>'" type="button">&nbsp;
+        <input name="button_33" class="btn sortnamecss" style="width:50px;" id="button_33" value="编辑" onclick="location.href='__MODULE__/Products/TypeEdit/id/<?php echo $k[id] ?>'" type="button">&nbsp;
+    </td>
+</tr>
+
+<?php endforeach; ?>
+			
+		
+		</tbody></table>
+		<br>
+		<table style="padding:0; margin:auto;" width="980" cellspacing="1" cellpadding="1" border="0" bgcolor="#E1E1E1" align="center">
+			  <tbody><tr>
+                                  
+				<td style="PADDING:5px 5px; FONT-SIZE: 14px; line-height:18px;" bgcolor="#F9F9F9" align="center"><div style="position:relative;width:250px; float:left; margin:0; padding:0;text-align:left;"><form action="index.asp" method="get" style="margin:0; padding:0;"><input name="action" id="action" value="" type="hidden"><input name="keywords" class="search_input" id="keywords" value="" style="width:160px" type="text">&nbsp;<input name="button" class="search_btn" id="button" value="搜索" type="submit">
+		  </form></div><div id="paging">
+                     
+                      <a class="total" title="Total:24">24</a><a class="pages" title="Page 1 of 2">1/2</a>  <a class="pagenow" title="First">|‹</a> <a class="pagenow" title="Previous">‹</a>  <a class="pagenow" title="Page:1">1</a>  <a href="?p=2" class="page" title="Page:2">2</a>  <a href="?p=2" class="page" title="Next">›</a> <a href="?p=2" class="page" title="Last">›|</a> <input name="pageinput" id="pageinput" onkeydown="if (event.keyCode==13){location.href = '?p={$PageNum}'.replace('{$PageNum}',this.value);}" type="text"></div></td>
+		  </tr> 
+              
+		</tbody></table>
+                    <?php echo $showPage ?>
+
+	</div>
+</div>
+
+<script>
+  $(function(){
+      $(".changecolour").mouseover(function(){
+          $(this).find('td').css('backgroundColor','#EFFBFD');
+     })
+         $(".tron").mouseout(function(){
+            $(this).find('td').css('backgroundColor','#FFF');
+        })
+    });
+  
+</script>
+

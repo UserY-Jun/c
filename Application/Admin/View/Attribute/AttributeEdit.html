@@ -1,0 +1,62 @@
+<layout name="main" />
+
+
+
+
+<div style="width:1200px; margin:0 auto;" >
+    
+    
+    
+    <div style="width:980px; float:right; text-align:left; padding:0; font-size:14px; margin-top:20px;">
+        
+        <form enctype="multipart/form-data" action="__SELF__" method="post">
+            <table width="90%" id="general-table" align="center">
+                <tr>
+                    <td class="label">属性名称：</td>
+                    <td><input type="text" name="attr_name" value="<?php echo $data['attr_name'] ?>"size="30" />
+                        <input type="hidden" name="id" value="<?php echo $data['id'] ?>"size="30" />
+                    <span class="require-field">*</span></td>
+                </tr>
+                <tr>
+                    <td class="label">属性类型：</td>
+                    <td><input type="radio" name="attr_type" value="0" <?php if($data['attr_type']==0) echo 'checked="true"'; ?> />唯一
+                        <input type="radio" name="attr_type" value="1"  <?php if($data['attr_type']==1) echo 'checked="true"'; ?> />可选属性
+                    <span class="require-field">*</span></td>
+                </tr>
+               <tr>
+                    <td class="label">属性的可选值,多个用,隔开：</td>
+                    <td><input type="text" name="attr_option_values" value="<?php echo $data['attr_option_values'] ?>"size="30" />
+                    <span class="require-field">*</span></td>
+                </tr>
+                   <tr>
+                    <td class="label">所属类型：</td>
+                       <td>
+                       <select name='type_id'>
+                           <option value="">请选择....</option>
+                           <?php foreach($typeData as $v):
+                              if($data['type_id']==$v['id'])
+                                $selec = 'selected="selected"';
+                              else
+                                $selec = '';
+                           ?>
+                           <option value="<?php echo $v['id']; ?>" <?php echo $selec ?>><?php echo $v['type_name']; ?></option> 
+                            <?php endforeach; ?>
+                      </select>
+            </td>
+                </tr>
+            </table>
+            <div class="button-div">
+                <input type="submit" value=" 确定 " class="button"/>
+                <input type="reset" value=" 重置 " class="button" />
+            </div>
+        </form>
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+</div>    

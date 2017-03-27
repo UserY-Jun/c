@@ -1,0 +1,1745 @@
+[ 2017-03-03T08:25:28+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-03T08:25:28+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T08:25:28+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T08:25:28+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T08:25:28+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T08:25:28+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T08:25:31+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:25:33+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:25:53+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:26:09+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:26:53+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:26:53+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:26:55+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:27:04+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/7.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:27:56+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:36:14+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:36:20+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:40:59+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:41:03+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/7.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:41:08+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/7.html/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:41:16+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/7/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:41:22+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/7/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:41:26+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:41:28+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:42:02+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s/OrderStateID/9
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:43:34+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/9/p/12000.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:43:34+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:43:40+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:48:50+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:49:01+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/7.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:49:05+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/10.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:49:09+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12000.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:49:13+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11994.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:49:21+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0?p=1994
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:49:29+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1996.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:49:34+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12000.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:49:45+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12000.html/OrderStateID/9
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:49:50+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/9/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:50:02+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/9/p/1.html/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:50:13+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/9/p/1.html/OrderStateID/0/OrderStateID/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:50:20+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/9/p/1.html/OrderStateID/0/OrderStateID/5/OrderStateID/4
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:50:27+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/9/p/1.html/OrderStateID/0/OrderStateID/5/OrderStateID/4/OrderStateID/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:50:33+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/9/p/1.html/OrderStateID/0/OrderStateID/5/OrderStateID/4/OrderStateID/3/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:53:46+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/9/p/1.html/OrderStateID/0/OrderStateID/5/OrderStateID/4/OrderStateID/3/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:53:51+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12000.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:53:55+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:53:58+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12000.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:54:02+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11994.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:54:07+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11991.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:54:23+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11988.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:54:27+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11985.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:54:37+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11982.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:55:25+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11979.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:57:55+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11979.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:58:58+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11979.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:59:21+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11979.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:59:28+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12000.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:59:32+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11994.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T08:59:41+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11994.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:02:34+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11994.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:02:56+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11992.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:03:52+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:04:01+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:05:07+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:05:45+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:05:50+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/7.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:05:57+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/13.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:06:00+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/8.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/8.html/OrderStateID/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:06:12+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/8.html/OrderStateID/3/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:06:19+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/8/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:06:44+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/8/button/s/OrderStateID/9
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:07:22+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/8/button/s/OrderStateID/9/OrderStateID/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:07:29+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/11/button/s/OrderStateID/5.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:07:56+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/11/button/s/OrderStateID/5.html/OrderStateID/9
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:08:09+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:08:11+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:08:17+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:09:54+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:10:00+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12000.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:10:04+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11994.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:10:08+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11991.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:11:44+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11991.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:11:48+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:11:55+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12000.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:12:05+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11999.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:12:11+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11998.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:12:16+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11997.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:19:33+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11997.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:20:30+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11997.html/OrderStateID/9
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:20:30+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11997.html/OrderStateID/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:20:38+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11997.html/OrderStateID/5/OrderStateID/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:20:41+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/11997.html/OrderStateID/5/OrderStateID/7/OrderStateID/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:20:48+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/5/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:21:07+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/5/p/1/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:23:22+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:23:24+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:23:25+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:26:47+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+ERR: Think\Model:search方法不存在！
+
+[ 2017-03-03T09:27:13+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+ERR: Think\Model:search方法不存在！
+
+[ 2017-03-03T09:27:14+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+ERR: Think\Model:search方法不存在！
+
+[ 2017-03-03T09:29:17+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:33:49+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/7.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:36:44+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:43:15+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:43:32+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/7.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:43:37+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/20.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:48:10+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:48:44+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:49:01+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:49:43+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:50:23+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:50:28+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/7.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:50:31+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/11.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:50:34+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:50:45+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1.html/OrderStateID/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:51:24+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/11/OrderStateID/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:52:12+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/11/OrderStateID/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:52:17+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:55:25+08:00 ] 127.0.0.1 /index.php/Admin/trade/AjaxOrdersStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0039s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 109 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/AjaxOrdersStatus','1488506122','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_orders` WHERE ( tid_s = 4 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status_num`=invoice_status_num+1 WHERE ( tid_s = 4 ) [ RunTime:3.4980s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '4' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status`='1',`invoice_status_time`='2017-03-03 09:55:22' WHERE `tid_s` = '4' [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-03T09:55:29+08:00 ] 127.0.0.1 /index.php/Admin/trade/AjaxOrdersStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0039s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 109 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/AjaxOrdersStatus','1488506126','2','浏览页面') [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `cms_orders` WHERE ( tid_s = 4 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status_num`=invoice_status_num+1 WHERE ( tid_s = 4 ) [ RunTime:3.5049s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '4' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_status`='1',`invoice_status_time`='2017-03-03 09:55:26' WHERE `tid_s` = '4' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-03T09:55:29+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:55:35+08:00 ] 127.0.0.1 /index.php/Admin/trade/AjaxOrdersStatus
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0039s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0039s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 109 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/AjaxOrdersStatus','1488506132','2','浏览页面') [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_orders` WHERE ( tid_s = 4 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_no_num`=invoice_no_num+1 WHERE ( tid_s = 4 ) [ RunTime:3.4453s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '4' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_orders` SET `invoice_no`='1',`invoice_no_time`='2017-03-03 09:55:32' WHERE `tid_s` = '4' [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-03T09:55:37+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T09:56:19+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:00:00+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:01:09+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:01:14+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/7.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:01:18+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/11.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:01:21+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/5.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:01:25+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:02:07+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/6.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:18:53+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/6.html
+WARN: 测试日志信息，这是警告级别
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id in (9000,12,50,7000) ) LIMIT 1' at line 1
+
+[ 2017-03-03T10:19:13+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/6.html
+WARN: 测试日志信息，这是警告级别
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id in (1,12,50,7000) ) LIMIT 1' at line 1
+
+[ 2017-03-03T10:19:28+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/6.html
+WARN: 测试日志信息，这是警告级别
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id in (1,12,50,7000) ) LIMIT 1' at line 1
+
+[ 2017-03-03T10:19:42+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/6.html
+WARN: 测试日志信息，这是警告级别
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id in (1,12,50,7000) ) LIMIT 1' at line 1
+
+[ 2017-03-03T10:19:54+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/6.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:30:43+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/6.html
+WARN: 测试日志信息，这是警告级别
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sq_jingyi.collect' doesn't exist
+
+[ 2017-03-03T10:31:02+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/6.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:31:07+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:31:12+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:34:01+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:34:07+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:34:31+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:34:40+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/120.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:34:44+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/114.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:34:58+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/120.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:35:25+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/120.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:35:28+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:35:31+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/5.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:35:35+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/8.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:35:55+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/8.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:35:58+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:36:01+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:36:05+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:36:35+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:37:00+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AS tp_count FROM `cms_orders` WHERE (  `invoice_status` = 0 OR `invoice_no` = ' at line 1
+
+[ 2017-03-03T10:37:10+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:37:15+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/12120.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:37:19+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:37:25+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:37:28+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/4.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:37:30+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:37:54+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:38:06+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:38:08+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:38:14+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1.html/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:38:54+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12000/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:39:05+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:39:10+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/2/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:39:17+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:42:56+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:43:11+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:43:34+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:43:37+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12000/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:43:39+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:43:50+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:43:57+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:44:18+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:44:38+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:46:08+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:46:32+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:49:15+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:49:20+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12120/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:49:47+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12119/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:49:52+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12118/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:49:56+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12117/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:50:19+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12117/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:50:27+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:53:28+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/3/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:53:49+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/3/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+ERR: Think\Model:fields方法不存在！
+
+[ 2017-03-03T10:53:58+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/3/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:54:04+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/7/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:54:25+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12120/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:55:29+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12120/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:55:37+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12115/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:56:02+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12115/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:56:26+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12115/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:58:00+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:58:13+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T10:58:28+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:00:32+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:01:15+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:01:36+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:03:03+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:03:41+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:03:54+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:04:43+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:04:57+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:05:55+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:06:34+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:07:08+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY tid_s LIMIT 0,50' at line 1
+
+[ 2017-03-03T11:07:37+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 0,50' at line 1
+
+[ 2017-03-03T11:07:52+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY tid_s ORDER BY pay_time asc LIMIT 0,50' at line 1
+
+[ 2017-03-03T11:08:39+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') GROUP BY tid_s ORDER BY pay_time asc LIMIT 0,50' at line 1
+
+[ 2017-03-03T11:09:10+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:09:44+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:10:17+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:10:32+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:10:57+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:11:13+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:11:26+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:11:36+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:12:57+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:13:06+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/7.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:13:10+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:13:20+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:13:45+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:14:16+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:14:18+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:14:23+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:14:32+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T11:14:40+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:03:22+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T12:03:22+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-03T12:03:22+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T12:03:22+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T12:03:22+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T12:03:22+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T12:03:27+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:03:32+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST?p=5555
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:03:46+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST?p=5555/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:03:58+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST?p=5555/button/s&OrderStateID=0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:04:06+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:04:10+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/3/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:04:13+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/7/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:04:20+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12000/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:05:00+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12000/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:05:32+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12000/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:06:12+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12000/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:06:18+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12120/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:06:22+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:06:27+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/2/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:06:31+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12120/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:06:38+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12115/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:07:30+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/1/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:07:33+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12120/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:07:41+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12114/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:09:32+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/p/12114/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:09:36+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:09:44+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:10:04+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/12120.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:10:40+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/12116.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:10:57+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/12116.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:11:09+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/12119.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:11:24+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:11:31+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/7.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:11:45+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/9.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:14:32+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/9.html
+WARN: 测试日志信息，这是警告级别
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'rows' in 'field list'
+
+[ 2017-03-03T12:19:55+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/9.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:19:59+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/12.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:20:20+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/11.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:21:01+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/14.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:21:17+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/16.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:21:34+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/18.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:22:29+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/18.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T12:23:55+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/18.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:47:05+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-03T13:47:05+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T13:47:05+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T13:47:05+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T13:47:05+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T13:47:05+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T13:47:09+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/18.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:47:36+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/18.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:47:51+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/12120.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:48:07+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/12114.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:48:49+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/12111.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:55:21+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/12111.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:56:07+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:56:15+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:57:02+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:57:28+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:57:44+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:57:45+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:57:51+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:58:09+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:58:10+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:58:23+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:58:30+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/16.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:58:33+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:58:56+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:59:11+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:59:26+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T13:59:34+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:01:08+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:01:16+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:01:24+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1/button/s/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:01:30+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/16/button/s/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:01:34+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/10/button/s/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:01:38+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/7/button/s/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:01:43+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/4/button/s/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:01:49+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1/button/s/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:10:03+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1/button/s/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:10:08+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/2/button/s/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:10:26+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/3/button/s/OrderStateID/0.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:10:45+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/3/button/s/OrderStateID/0.html/OrderStateID/5
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:11:00+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/3/button/s/OrderStateID/0.html/OrderStateID/5/OrderStateID/3
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:11:06+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1/button/s/OrderStateID/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:15:02+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1/button/s/OrderStateID/3.html
+WARN: 测试日志信息，这是警告级别
+ERR: Think\Model:goup方法不存在！
+
+[ 2017-03-03T14:15:08+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1/button/s/OrderStateID/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:30:22+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/3183905892356950
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0146s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 109 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/3183905892356950','1488522622','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '3183905892356950'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0146s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('3183905892356950')  [ RunTime:0.0029s ]
+
+[ 2017-03-03T14:30:28+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/3085296232463209
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 109 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/3085296232463209','1488522628','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '3085296232463209'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0137s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('3085296232463209')  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-03T14:30:38+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/3185659286650250
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0137s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 109 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/3185659286650250','1488522638','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '3185659286650250'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('3185659286650250')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:30:40+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2574673792098949
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0137s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 109 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2574673792098949','1488522640','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '2574673792098949'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2574673792098949','2574664799918949')  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-03T14:30:45+08:00 ] 127.0.0.1 /index.php/Admin/Trade/OrderBlankPrintInfoList/tid_s/3185659286650250
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:30:51+08:00 ] 127.0.0.1 /index.php/Admin/Trade/OrderBlankPrintInfoList/tid_s/3179198886405387
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:35:22+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1/button/s/OrderStateID/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:35:41+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1/button/s/OrderStateID/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:35:51+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/3183905892356950
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0137s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 109 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/3183905892356950','1488522951','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '3183905892356950'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0137s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('3183905892356950')  [ RunTime:0.0010s ]
+
+[ 2017-03-03T14:35:52+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/3183905892356950
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 109 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/3183905892356950','1488522952','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '3183905892356950'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('3183905892356950')  [ RunTime:0.0000s ]
+
+[ 2017-03-03T14:36:09+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2577617785190246
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 109 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2577617785190246','1488522969','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '2577617785190246'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2577617785190246')  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-03-03T14:36:17+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2574673792098949
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0010s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0127s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 109 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2574673792098949','1488522977','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '2574673792098949'  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0137s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2574673792098949','2574664799918949')  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-03T14:36:19+08:00 ] 127.0.0.1 /index.php/Admin/trade/ShoworderInfo/tids/2574673792098949
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `cms_sku` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_sku` WHERE ( id =250518 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 481 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: UPDATE `cms_sku` SET `sku`='3' WHERE ( id =250518 ) [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [2] Missing argument 2 for Think\Model::_before_update_get_options_data(), called in D:\c\Application\Admin\Model\BaseModel.class.php on line 32 and defined D:\c\ThinkPHP\Library\Think\Model.class.php 第 475 行.
+NOTIC: [8] Undefined variable: options D:\c\ThinkPHP\Library\Think\Model.class.php 第 476 行.
+NOTIC: [8] Undefined variable: before_update_get_options_data D:\c\ThinkPHP\Library\Think\Model.class.php 第 483 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_user` WHERE `accounts` = 'root' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_role_user` [ RunTime:0.0127s ]
+SQL: SELECT c.* FROM cms_role_user a LEFT JOIN cms_role_pri b ON a.role_id=b.role_id 
+                        LEFT JOIN cms_privilege c ON b.pri_id=c.id
+                      WHERE `user_id` = '1'  [ RunTime:0.0000s ]
+WARN: 测试日志信息，这是警告级别
+SQL: SHOW COLUMNS FROM `cms_journal` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined variable: operation D:\c\Application\Admin\Controller\BaseController.class.php 第 109 行.
+SQL: INSERT INTO `cms_journal` (`user_id`,`operation`,`operation_url`,`operation_time`,`shop_id`,`operating_state`) VALUES ('1',NULL,'/index.php/Admin/trade/ShoworderInfo/tids/2574673792098949','1488522979','2','浏览页面') [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `cms_clock` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_clock` WHERE `user_id` = 1 AND `year` = 2017 AND `month` = 3 AND `day` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_orders` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `cms_orders` WHERE `tid_s` = '2574673792098949'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_orderinfo` [ RunTime:0.0127s ]
+SQL: SELECT * FROM cms_orderinfo a WHERE `tid` IN ('2574673792098949','2574664799918949')  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000976s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-03T14:36:38+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1/button/s/OrderStateID/3.html/OrderStateID/9
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:36:41+08:00 ] 127.0.0.1 /index.php/Admin/Trade/TradeList/p/1/button/s/OrderStateID/3.html/OrderStateID/9/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:54:04+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:54:28+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T14:54:35+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:03:07+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:03:16+08:00 ] 127.0.0.1 /index.php/admin/trade/UpdateTradesList
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:05:54+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:06:25+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:12:03+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+ERR: 表达式错误:between 
+
+[ 2017-03-03T15:12:22+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:12:49+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0/OrderStateID/7
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:14:02+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0/OrderStateID/7/OrderStateID/9
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:14:10+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/OrderStateID/0/OrderStateID/7/OrderStateID/9
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:14:16+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:14:18+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:14:29+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:14:33+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:14:35+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:15:38+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:15:48+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/4.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:15:50+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:20:03+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:20:57+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/6.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T15:30:48+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/6.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:06:08+08:00 ] 127.0.0.1 /index.php/Admin/skin/default/default.css
+ERR: 无法加载控制器:Skin
+
+[ 2017-03-03T16:06:08+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T16:06:08+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T16:06:08+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery-1.11.1.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T16:06:08+08:00 ] 127.0.0.1 /index.php/Admin/js/dialog-plus-min.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T16:06:08+08:00 ] 127.0.0.1 /index.php/Admin/js/main.js
+ERR: 无法加载控制器:Js
+
+[ 2017-03-03T16:06:11+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/6.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:06:14+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:09:16+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:09:20+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:09:22+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:09:32+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/1.html/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:10:06+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/9/p/1.html/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:10:12+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:10:16+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:12:05+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:12:10+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:13:01+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:14:10+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:14:22+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:16:05+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:16:23+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:17:19+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:17:26+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:18:20+08:00 ] 127.0.0.1 /index.php/Admin/trade/tradeLIST/button/s/OrderStateID/0
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:18:28+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12079.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:18:30+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:19:10+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:27:05+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:27:09+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:27:26+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:27:39+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:27:43+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12079.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:27:45+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:28:04+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:28:10+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:28:17+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:28:28+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/4.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:28:33+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/7.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:28:37+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/10.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:28:45+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0?p=15
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:28:50+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/16.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:28:58+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:29:34+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:29:57+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:30:01+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12079.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:30:11+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:30:16+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12079.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:30:43+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:30:47+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12016.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:31:11+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:44:26+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:44:40+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:44:45+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:44:53+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/3.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:45:01+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12016.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:45:06+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12015.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:45:07+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12014.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:45:10+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12013.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:45:23+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12013.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:49:15+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12013.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:49:19+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:49:47+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12016.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:49:50+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12010.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:49:52+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12007.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:49:55+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0?p=10000
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:49:59+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0?p=50000
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:50:03+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0?p=5000
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:50:09+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0?p=2000
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:50:13+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0?p=1000
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:50:43+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:51:49+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:52:03+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/2.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:52:05+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:53:28+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:53:53+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:53:56+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12016.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:53:59+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:55:39+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:55:47+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:56:07+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/12016.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:56:10+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/1.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:56:13+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/7.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:56:18+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/10.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:56:23+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/13.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:56:30+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0?p=500
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:56:35+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0?p=50
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:56:42+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0?p=100
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:56:47+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0?p=75
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:56:52+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0?p=60
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:56:58+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0?p=65
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:57:03+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/64.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:57:05+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/63.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:57:19+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/62.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:57:25+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/63.html
+WARN: 测试日志信息，这是警告级别
+
+[ 2017-03-03T16:57:29+08:00 ] 127.0.0.1 /index.php/Admin/Trade/tradeLIST/button/s/OrderStateID/0/p/64.html
+WARN: 测试日志信息，这是警告级别
+
